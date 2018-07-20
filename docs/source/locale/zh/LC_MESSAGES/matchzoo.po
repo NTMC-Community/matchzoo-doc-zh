@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 04:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/matchzoo.rst:2
+msgid "matchzoo package"
+msgstr ""
+
+#: ../../source/matchzoo.rst:5
+msgid "Subpackages"
+msgstr ""
+
+#: ../../source/matchzoo.rst:15
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.rst:18
+msgid "matchzoo.datapack module"
+msgstr ""
+
+#: matchzoo.datapack:1 of
+msgid "Matchzoo DataPack, pair-wise tuple (feature) and context as input."
+msgstr ""
+
+#: matchzoo.datapack.DataPack:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: matchzoo.datapack.DataPack:1 of
+msgid "Matchzoo DataPack data structure, store dataframe and context."
+msgstr ""
+
+#: matchzoo.datapack.DataPack:4 of
+msgid "Example"
+msgstr ""
+
+#: matchzoo.datapack.DataPack.append:1 of
+msgid "Append a new `DataPack` object to current `DataPack` object."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.append:3 of
+msgid ""
+"It should be noted that the context of the previous `DataPack` will be "
+"updated by the new one."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.append matchzoo.datapack.DataPack.sample
+#: matchzoo.datapack.DataPack.save matchzoo.datapack.load_datapack of
+msgid "Parameters"
+msgstr ""
+
+#: matchzoo.datapack.DataPack.append:7 of
+msgid "the `DataPack` object to be appended."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.context:1 of
+msgid "Get context of `DataPack`."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.dataframe:1 of
+msgid "Get data frame."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.sample:1 of
+msgid "Sample records from `DataPack` object, for generator."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.sample:3 of
+msgid "number of records to be sampled, use `batch_size`."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.sample:4 of
+msgid "sample with replacement, default value is `True`."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.sample of
+msgid "return data_pack"
+msgstr ""
+
+#: matchzoo.datapack.DataPack.sample:6 of
+msgid ""
+"return `DataPack` object including sampled data and context (shallow copy"
+" of the context`)."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.save:1 of
+msgid "Save the `DataPack` object."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.save:3 of
+msgid ""
+"A saved `DataPack` is represented as a directory with a `DataPack` object"
+" (transformed user input as features and context), it will be saved by "
+"`pickle`."
+msgstr ""
+
+#: matchzoo.datapack.DataPack.save:8 of
+msgid "directory path of the saved `DataPack`."
+msgstr ""
+
+#: matchzoo.datapack.load_datapack:1 of
+msgid "Load a `DataPack`. The reverse function of :meth:`DataPack.save`."
+msgstr ""
+
+#: matchzoo.datapack.load_datapack:4 of
+msgid "directory path of the saved model"
+msgstr ""
+
+#: matchzoo.datapack.load_datapack of
+msgid "Return type"
+msgstr ""
+
+#: matchzoo.datapack.load_datapack:5 of
+msgid ":py:class:`~matchzoo.datapack.DataPack`"
+msgstr ""
+
+#: matchzoo.datapack.load_datapack of
+msgid "Returns"
+msgstr ""
+
+#: matchzoo.datapack.load_datapack:6 of
+msgid "a :class:`DataPack` instance"
+msgstr ""
+
+#: ../../source/matchzoo.rst:27
+msgid "Module contents"
+msgstr ""
+
+#~ msgid "Matchzoo toolkit for text pre-processing."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`matchzoo.preprocessors.ProcessorUnit`"
+#~ msgstr ""
+
+#~ msgid "Process unit to remove digits."
+#~ msgstr ""
+
+#~ msgid "Remove digits from list of tokens."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be filtered."
+#~ msgstr ""
+
+#~ msgid "return tokens"
+#~ msgstr ""
+
+#~ msgid "tokens of tokens without digits."
+#~ msgstr ""
+
+#~ msgid ":py:class:`list`"
+#~ msgstr ""
+
+#~ msgid "Process unit for token lemmatization."
+#~ msgstr ""
+
+#~ msgid "Lemmatization a sequence of tokens."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be lemmatized."
+#~ msgstr ""
+
+#~ msgid "list of lemmatizd tokens."
+#~ msgstr ""
+
+#~ msgid "Process unit for text lower case."
+#~ msgstr ""
+
+#~ msgid "Convert list of tokens to lower case."
+#~ msgstr ""
+
+#~ msgid "list of tokens."
+#~ msgstr ""
+
+#~ msgid "lower-cased list of tokens."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`matchzoo.preprocessors.StatefulProcessorUnit`"
+#~ msgstr ""
+
+#~ msgid "Process unit for n-letter generation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Triletter is used in :class:`DSSMModel`. "
+#~ "This processor is expected to execute"
+#~ " after `Vocab` has been created."
+#~ msgstr ""
+
+#~ msgid "Returned `input_dim` is the dimensionality of :class:`DSSMModel`."
+#~ msgstr ""
+
+#~ msgid "Fiitting parameters (shape of word hashing layer) for :DSSM:."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be fitted."
+#~ msgstr ""
+
+#~ msgid "By default use 3-gram (tri-letter)."
+#~ msgstr ""
+
+#~ msgid "Transform token into tri-letter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, `word` should be "
+#~ "represented as `#wo`, `wor`, `ord` and"
+#~ " `rd#`."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be transformed."
+#~ msgstr ""
+
+#~ msgid "set of tri-letters, dependent on `ngram`."
+#~ msgstr ""
+
+#~ msgid "Process unit do not persive state (i.e. do not need fit)."
+#~ msgstr ""
+
+#~ msgid "Abstract base method, need to be implemented in subclass."
+#~ msgstr ""
+
+#~ msgid "Process unit for remove punctuations."
+#~ msgstr ""
+
+#~ msgid "Remove punctuations from list of tokens."
+#~ msgstr ""
+
+#~ msgid "list of toekns."
+#~ msgstr ""
+
+#~ msgid "return rv"
+#~ msgstr ""
+
+#~ msgid "tokens  without punctuation."
+#~ msgstr ""
+
+#~ msgid "Process unit do persive state (i.e. need fit)."
+#~ msgstr ""
+
+#~ msgid ":py:class:`dict`"
+#~ msgstr ""
+
+#~ msgid "Get current state."
+#~ msgstr ""
+
+#~ msgid "Process unit for token stemming."
+#~ msgstr ""
+
+#~ msgid "Reducing inflected words to their word stem, base or root form."
+#~ msgstr ""
+
+#~ msgid "list of string to be stemmed."
+#~ msgstr ""
+
+#~ msgid "stemmer to use, `porter` or `lancaster`."
+#~ msgstr ""
+
+#~ msgid "Raises"
+#~ msgstr ""
+
+#~ msgid "stemmer type should be porter or lancaster."
+#~ msgstr ""
+
+#~ msgid "stemmed token."
+#~ msgstr ""
+
+#~ msgid "Process unit to remove stop words."
+#~ msgstr ""
+
+#~ msgid "Get stopwords based on language."
+#~ msgstr ""
+
+#~ msgid "params lang"
+#~ msgstr ""
+
+#~ msgid "language code."
+#~ msgstr ""
+
+#~ msgid "return stop_list"
+#~ msgstr ""
+
+#~ msgid "list of stop words."
+#~ msgstr ""
+
+#~ msgid "Remove stopwords from list of tokenized tokens."
+#~ msgstr ""
+
+#~ msgid "list of tokenized tokens."
+#~ msgstr ""
+
+#~ msgid "language code for stopwords."
+#~ msgstr ""
+
+#~ msgid "list of tokenized tokens without stopwords."
+#~ msgstr ""
+
+#~ msgid "Process unit for text tokenization."
+#~ msgstr ""
+
+#~ msgid "Process input data from raw terms to list of tokens."
+#~ msgstr ""
+
+#~ msgid "raw textual input."
+#~ msgstr ""
+
+#~ msgid "tokenized tokens as a list."
+#~ msgstr ""
+
+#~ msgid "matchzoo.preprocessors module"
+#~ msgstr ""
+
