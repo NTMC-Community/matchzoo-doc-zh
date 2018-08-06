@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-04 11:22+0000\n"
+"POT-Creation-Date: 2018-07-12 08:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/index.rst:7
 msgid "Welcome to MatchZoo's documentation!"
-msgstr "欢迎来到MatchZoo"
+msgstr ""
 
 #: ../../source/index.rst:20
 msgid ""
@@ -32,15 +32,11 @@ msgid ""
 "ranking, paraphrase identification, etc. We are always happy to receive "
 "any code contributions, suggestions, comments from all our MatchZoo "
 "users."
-msgstr "MatchZoo是一个用于文本匹配的工具包。"
-"它的开发重点是促进深文本匹配模型的设计，比较和共享。"
-"这里有许多深度匹配的方法，如DRMM，MatchPyramid，MV-LSTM，aNMM，DUET，ARC-I，ARC-II，DSSM和CDSSM，采用统一的接口设计"
-"与MatchZoo相关的潜在任务包括文档检索，问题回答，会话响应排名，同义句识别等。"
-"我们很乐意接收来自所有MatchZoo用户的任何代码贡献，建议和评论。"
+msgstr ""
 
 #: ../../source/index.rst:23
 msgid "API Document:"
-msgstr "API文档"
+msgstr "1111111111111111"
 
 #: ../../source/index.rst:32
 msgid "Indices and tables"
@@ -56,5 +52,5 @@ msgstr ""
 
 #: ../../source/index.rst:36
 msgid ":ref:`search`"
-msgstr "搜索"
+msgstr ""
 

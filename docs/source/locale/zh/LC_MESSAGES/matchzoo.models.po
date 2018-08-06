@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-04 11:22+0000\n"
+"POT-Creation-Date: 2018-08-06 13:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel:1
 #: matchzoo.models.dssm_model.DSSMModel:1
 #: matchzoo.models.naive_model.NaiveModel:1 of
-msgid "Bases: :class:`matchzoo.engine.base_model.BaseModel`"
+msgid "基类：:class:`matchzoo.engine.base_model.BaseModel`"
 msgstr ""
 
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel:4
@@ -51,7 +51,7 @@ msgstr ""
 
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel.get_default_params
 #: matchzoo.models.dssm_model.DSSMModel.get_default_params of
-msgid "Return type"
+msgid "返回类型"
 msgstr ""
 
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel.get_default_params:1
@@ -61,7 +61,7 @@ msgstr ""
 
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel.get_default_params
 #: matchzoo.models.dssm_model.DSSMModel.get_default_params of
-msgid "Returns"
+msgid "返回"
 msgstr ""
 
 #: matchzoo.models.dense_baseline_model.DenseBaselineModel.get_default_params:2
@@ -104,4 +104,100 @@ msgstr ""
 #: ../../source/matchzoo.models.rst:33
 msgid "Module contents"
 msgstr ""
+
+#~ msgid "A simple densely connected baseline model."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`matchzoo.engine.base_model.BaseModel`"
+#~ msgstr ""
+
+#~ msgid "Examples"
+#~ msgstr ""
+
+#~ msgid "Model structure."
+#~ msgstr ""
+
+#~ msgid "Return type"
+#~ msgstr ""
+
+#~ msgid ":py:class:`~matchzoo.engine.param_table.ParamTable`"
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "model default parameters."
+#~ msgstr ""
+
+#~ msgid "An implementation of DSSM, Deep Structured Semantic Model."
+#~ msgstr ""
+
+#~ msgid "Deep structured semantic model."
+#~ msgstr ""
+
+#~ msgid "Build model structure."
+#~ msgstr ""
+
+#~ msgid "DSSM use Siamese arthitecture."
+#~ msgstr ""
+
+#~ msgid "Naive model with a simplest structure for testing purposes."
+#~ msgstr ""
+
+#~ msgid "Build."
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.dense\\_baseline\\_model module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.dssm\\_model module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.naive\\_model module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.anmm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.arci module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.arcii module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.bimpm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.cdssm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.conv\\_knrm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.drmm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.drmm\\_tks module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.dssm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.duet module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.knrm module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.matchpyramid module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.matchsrnn module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.model module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.models.mvlstm module"
+#~ msgstr ""
 

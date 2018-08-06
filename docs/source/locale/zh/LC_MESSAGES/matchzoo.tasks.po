@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-04 11:22+0000\n"
+"POT-Creation-Date: 2018-08-06 13:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: matchzoo.tasks.classification.Classification:1
 #: matchzoo.tasks.ranking.Ranking:1 of
-msgid "Bases: :class:`matchzoo.engine.base_task.BaseTask`"
+msgid "基类：:class:`matchzoo.engine.base_task.BaseTask`"
 msgstr ""
 
 #: matchzoo.tasks.classification.Classification.list_available_losses
@@ -47,7 +47,7 @@ msgstr ""
 #: matchzoo.tasks.ranking.Ranking.list_available_metrics
 #: matchzoo.tasks.ranking.Ranking.output_shape
 #: matchzoo.tasks.utils.list_available_task_types of
-msgid "Return type"
+msgid "返回类型"
 msgstr ""
 
 #: matchzoo.tasks.classification.Classification.list_available_losses:1
@@ -61,7 +61,7 @@ msgstr ""
 #: matchzoo.tasks.classification.Classification.list_available_metrics
 #: matchzoo.tasks.ranking.Ranking.list_available_losses
 #: matchzoo.tasks.ranking.Ranking.list_available_metrics of
-msgid "Returns"
+msgid "返回"
 msgstr ""
 
 #: matchzoo.tasks.classification.Classification.list_available_losses:2
@@ -123,4 +123,52 @@ msgstr ""
 #: ../../source/matchzoo.tasks.rst:33
 msgid "Module contents"
 msgstr ""
+
+#~ msgid "Classification task."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`matchzoo.engine.base_task.BaseTask`"
+#~ msgstr ""
+
+#~ msgid "Return type"
+#~ msgstr ""
+
+#~ msgid ":py:class:`list`"
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "a list of available losses."
+#~ msgstr ""
+
+#~ msgid "a list of available metrics."
+#~ msgstr ""
+
+#~ msgid "*return* -- number of classes to classify."
+#~ msgstr ""
+
+#~ msgid ":py:class:`int`"
+#~ msgstr ""
+
+#~ msgid "*return* -- output shape of a single sample of the task."
+#~ msgstr ""
+
+#~ msgid ":py:class:`tuple`"
+#~ msgstr ""
+
+#~ msgid "Ranking task."
+#~ msgstr ""
+
+#~ msgid "Ranking Task."
+#~ msgstr ""
+
+#~ msgid "Task utilities."
+#~ msgstr ""
+
+#~ msgid "Return a list of task type class objects."
+#~ msgstr ""
+
+#~ msgid ":py:class:`~typing.List`\\[:py:class:`~typing.Type`\\[:py:class:`~matchzoo.engine.base_task.BaseTask`]]"
+#~ msgstr ""
 

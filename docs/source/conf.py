@@ -14,13 +14,17 @@
 #
 import os
 import sys
+
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('../../MatchZoo'))
 sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo'))
 sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/engine'))
-sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/model'))
-sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/task'))
+sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/models'))
+sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/tasks'))
 sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/preprocessor'))
+sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/generators'))
+sys.path.insert(0, os.path.abspath('../../MatchZoo/matchzoo/utils'))
+
 
 
 # -- Project information -----------------------------------------------------

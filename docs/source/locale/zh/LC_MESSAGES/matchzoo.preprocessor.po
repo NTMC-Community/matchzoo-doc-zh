@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 04:20+0000\n"
+"POT-Creation-Date: 2018-08-06 13:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: matchzoo.preprocessor.process_units.StemmingUnit:1
 #: matchzoo.preprocessor.process_units.StopRemovalUnit:1
 #: matchzoo.preprocessor.process_units.TokenizeUnit:1 of
-msgid "Bases: :class:`matchzoo.preprocessor.process_units.ProcessorUnit`"
+msgid "基类：:class:`matchzoo.preprocessor.process_units.ProcessorUnit`"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.DigitRemovalUnit:1 of
@@ -61,7 +61,7 @@ msgstr ""
 #: matchzoo.preprocessor.process_units.StemmingUnit.transform
 #: matchzoo.preprocessor.process_units.StopRemovalUnit.transform
 #: matchzoo.preprocessor.process_units.TokenizeUnit.transform of
-msgid "Parameters"
+msgid "参数"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:4 of
@@ -91,7 +91,7 @@ msgstr ""
 #: matchzoo.preprocessor.process_units.StopRemovalUnit.transform
 #: matchzoo.preprocessor.process_units.TokenizeUnit.transform
 #: matchzoo.preprocessor.process_units.VocabularyUnit.transform of
-msgid "Return type"
+msgid "返回类型"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:9
@@ -141,7 +141,7 @@ msgstr ""
 
 #: matchzoo.preprocessor.process_units.NgramLetterUnit:1
 #: matchzoo.preprocessor.process_units.VocabularyUnit:1 of
-msgid "Bases: :class:`matchzoo.preprocessor.process_units.StatefulProcessorUnit`"
+msgid "基类：:class:`matchzoo.preprocessor.process_units.StatefulProcessorUnit`"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.NgramLetterUnit:1 of
@@ -186,7 +186,7 @@ msgid "list of tokens to be transformed."
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.NgramLetterUnit.transform of
-msgid "Returns"
+msgid "返回"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.NgramLetterUnit.transform:12 of
@@ -194,7 +194,7 @@ msgid "set of tri-letters, dependent on `ngram`."
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.ProcessorUnit:1 of
-msgid "Bases: :class:`object`"
+msgid "基类：:class:`object`"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.ProcessorUnit:1 of
@@ -251,7 +251,7 @@ msgid "stemmer to use, `porter` or `lancaster`."
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.StemmingUnit.transform of
-msgid "Raises"
+msgid "引发"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.StemmingUnit.transform:7 of
@@ -328,7 +328,7 @@ msgstr ""
 
 #: matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm:1
 #: matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex:1 of
-msgid "Bases: :class:`dict`"
+msgid "基类：:class:`dict`"
 msgstr ""
 
 #: matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm:1 of
@@ -351,6 +351,215 @@ msgstr ""
 msgid "Module contents"
 msgstr ""
 
-#~ msgid "Build a :class:`TermIndex` and a :clsas:`IndexTerm`."
+#~ msgid "Matchzoo toolkit for text pre-processing."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`matchzoo.preprocessor.process_units.ProcessorUnit`"
+#~ msgstr ""
+
+#~ msgid "Process unit to remove digits."
+#~ msgstr ""
+
+#~ msgid "Remove digits from list of tokens."
+#~ msgstr ""
+
+#~ msgid "Parameters"
+#~ msgstr ""
+
+#~ msgid "list of tokens to be filtered."
+#~ msgstr ""
+
+#~ msgid "return tokens"
+#~ msgstr ""
+
+#~ msgid "tokens of tokens without digits."
+#~ msgstr ""
+
+#~ msgid "Return type"
+#~ msgstr ""
+
+#~ msgid ":py:class:`list`"
+#~ msgstr ""
+
+#~ msgid "Process unit for token lemmatization."
+#~ msgstr ""
+
+#~ msgid "Lemmatization a sequence of tokens."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be lemmatized."
+#~ msgstr ""
+
+#~ msgid "list of lemmatizd tokens."
+#~ msgstr ""
+
+#~ msgid "Process unit for text lower case."
+#~ msgstr ""
+
+#~ msgid "Convert list of tokens to lower case."
+#~ msgstr ""
+
+#~ msgid "list of tokens."
+#~ msgstr ""
+
+#~ msgid "lower-cased list of tokens."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Bases: "
+#~ ":class:`matchzoo.preprocessor.process_units.StatefulProcessorUnit`"
+#~ msgstr ""
+
+#~ msgid "Process unit for n-letter generation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Triletter is used in :class:`DSSMModel`. "
+#~ "This processor is expected to execute"
+#~ " after `Vocab` has been created."
+#~ msgstr ""
+
+#~ msgid "Returned `input_dim` is the dimensionality of :class:`DSSMModel`."
+#~ msgstr ""
+
+#~ msgid "Fiitting parameters (shape of word hashing layer) for :DSSM:."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be fitted."
+#~ msgstr ""
+
+#~ msgid "By default use 3-gram (tri-letter)."
+#~ msgstr ""
+
+#~ msgid "Transform token into tri-letter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, `word` should be "
+#~ "represented as `#wo`, `wor`, `ord` and"
+#~ " `rd#`."
+#~ msgstr ""
+
+#~ msgid "list of tokens to be transformed."
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "set of tri-letters, dependent on `ngram`."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`object`"
+#~ msgstr ""
+
+#~ msgid "Process unit do not persive state (i.e. do not need fit)."
+#~ msgstr ""
+
+#~ msgid "Abstract base method, need to be implemented in subclass."
+#~ msgstr ""
+
+#~ msgid "Process unit for remove punctuations."
+#~ msgstr ""
+
+#~ msgid "Remove punctuations from list of tokens."
+#~ msgstr ""
+
+#~ msgid "list of toekns."
+#~ msgstr ""
+
+#~ msgid "return rv"
+#~ msgstr ""
+
+#~ msgid "tokens  without punctuation."
+#~ msgstr ""
+
+#~ msgid "Process unit do persive state (i.e. need fit)."
+#~ msgstr ""
+
+#~ msgid "Get current state."
+#~ msgstr ""
+
+#~ msgid "Process unit for token stemming."
+#~ msgstr ""
+
+#~ msgid "Reducing inflected words to their word stem, base or root form."
+#~ msgstr ""
+
+#~ msgid "list of string to be stemmed."
+#~ msgstr ""
+
+#~ msgid "stemmer to use, `porter` or `lancaster`."
+#~ msgstr ""
+
+#~ msgid "Raises"
+#~ msgstr ""
+
+#~ msgid "stemmer type should be porter or lancaster."
+#~ msgstr ""
+
+#~ msgid "stemmed token."
+#~ msgstr ""
+
+#~ msgid "Process unit to remove stop words."
+#~ msgstr ""
+
+#~ msgid "Get stopwords based on language."
+#~ msgstr ""
+
+#~ msgid "params lang"
+#~ msgstr ""
+
+#~ msgid "language code."
+#~ msgstr ""
+
+#~ msgid "return stop_list"
+#~ msgstr ""
+
+#~ msgid "list of stop words."
+#~ msgstr ""
+
+#~ msgid "Remove stopwords from list of tokenized tokens."
+#~ msgstr ""
+
+#~ msgid "list of tokenized tokens."
+#~ msgstr ""
+
+#~ msgid "language code for stopwords."
+#~ msgstr ""
+
+#~ msgid "list of tokenized tokens without stopwords."
+#~ msgstr ""
+
+#~ msgid "Process unit for text tokenization."
+#~ msgstr ""
+
+#~ msgid "Process input data from raw terms to list of tokens."
+#~ msgstr ""
+
+#~ msgid "raw textual input."
+#~ msgstr ""
+
+#~ msgid "tokenized tokens as a list."
+#~ msgstr ""
+
+#~ msgid "Vocabulary class."
+#~ msgstr ""
+
+#~ msgid "Examples"
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`dict`"
+#~ msgstr ""
+
+#~ msgid "Map index to term."
+#~ msgstr ""
+
+#~ msgid "Map term to index."
+#~ msgstr ""
+
+#~ msgid "Build a :class:`TermIndex` and a :class:`IndexTerm`."
+#~ msgstr ""
+
+#~ msgid "Transform a list of tokens to corresponding indices."
 #~ msgstr ""
 

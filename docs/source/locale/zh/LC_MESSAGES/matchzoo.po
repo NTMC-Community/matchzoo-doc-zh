@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 04:27+0000\n"
+"POT-Creation-Date: 2018-08-06 13:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgid "Matchzoo DataPack, pair-wise tuple (feature) and context as input."
 msgstr ""
 
 #: matchzoo.datapack.DataPack:1 of
-msgid "Bases: :class:`object`"
+msgid "基类：:class:`object`"
 msgstr ""
 
 #: matchzoo.datapack.DataPack:1 of
@@ -61,7 +61,7 @@ msgstr ""
 
 #: matchzoo.datapack.DataPack.append matchzoo.datapack.DataPack.sample
 #: matchzoo.datapack.DataPack.save matchzoo.datapack.load_datapack of
-msgid "Parameters"
+msgid "参数"
 msgstr ""
 
 #: matchzoo.datapack.DataPack.append:7 of
@@ -122,7 +122,7 @@ msgid "directory path of the saved model"
 msgstr ""
 
 #: matchzoo.datapack.load_datapack of
-msgid "Return type"
+msgid "返回类型"
 msgstr ""
 
 #: matchzoo.datapack.load_datapack:5 of
@@ -130,7 +130,7 @@ msgid ":py:class:`~matchzoo.datapack.DataPack`"
 msgstr ""
 
 #: matchzoo.datapack.load_datapack of
-msgid "Returns"
+msgid "返回"
 msgstr ""
 
 #: matchzoo.datapack.load_datapack:6 of
@@ -140,6 +140,89 @@ msgstr ""
 #: ../../source/matchzoo.rst:27
 msgid "Module contents"
 msgstr ""
+
+#~ msgid "Matchzoo DataPack, pair-wise tuple (feature) and context as input."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`object`"
+#~ msgstr ""
+
+#~ msgid "Matchzoo DataPack data structure, store dataframe and context."
+#~ msgstr ""
+
+#~ msgid "Example"
+#~ msgstr ""
+
+#~ msgid "Append a new `DataPack` object to current `DataPack` object."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It should be noted that the "
+#~ "context of the previous `DataPack` will"
+#~ " be updated by the new one."
+#~ msgstr ""
+
+#~ msgid "Parameters"
+#~ msgstr ""
+
+#~ msgid "the `DataPack` object to be appended."
+#~ msgstr ""
+
+#~ msgid "Get context of `DataPack`."
+#~ msgstr ""
+
+#~ msgid "Get data frame."
+#~ msgstr ""
+
+#~ msgid "Sample records from `DataPack` object, for generator."
+#~ msgstr ""
+
+#~ msgid "number of records to be sampled, use `batch_size`."
+#~ msgstr ""
+
+#~ msgid "sample with replacement, default value is `True`."
+#~ msgstr ""
+
+#~ msgid "return data_pack"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "return `DataPack` object including sampled "
+#~ "data and context (shallow copy of "
+#~ "the context`)."
+#~ msgstr ""
+
+#~ msgid "Save the `DataPack` object."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A saved `DataPack` is represented as "
+#~ "a directory with a `DataPack` object "
+#~ "(transformed user input as features and"
+#~ " context), it will be saved by "
+#~ "`pickle`."
+#~ msgstr ""
+
+#~ msgid "directory path of the saved `DataPack`."
+#~ msgstr ""
+
+#~ msgid "Load a `DataPack`. The reverse function of :meth:`DataPack.save`."
+#~ msgstr ""
+
+#~ msgid "directory path of the saved model"
+#~ msgstr ""
+
+#~ msgid "Return type"
+#~ msgstr ""
+
+#~ msgid ":py:class:`~matchzoo.datapack.DataPack`"
+#~ msgstr ""
+
+#~ msgid "Returns"
+#~ msgstr ""
+
+#~ msgid "a :class:`DataPack` instance"
+#~ msgstr ""
 
 #~ msgid "Matchzoo toolkit for text pre-processing."
 #~ msgstr ""
@@ -321,6 +404,12 @@ msgstr ""
 #~ msgid "tokenized tokens as a list."
 #~ msgstr ""
 
+#~ msgid "matchzoo.datapack module"
+#~ msgstr ""
+
 #~ msgid "matchzoo.preprocessors module"
+#~ msgstr ""
+
+#~ msgid "matchzoo.main module"
 #~ msgstr ""
 
