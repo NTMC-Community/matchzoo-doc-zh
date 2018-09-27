@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-06 13:09+0000\n"
+"POT-Creation-Date: 2018-09-27 15:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../source/matchzoo.utils.rst:2
 msgid "matchzoo.utils package"
@@ -26,18 +26,22 @@ msgid "Submodules"
 msgstr ""
 
 #: ../../source/matchzoo.utils.rst:8
-msgid "matchzoo.utils.rank\\_io module"
+msgid "matchzoo.utils.util module"
 msgstr ""
 
-#: ../../source/matchzoo.utils.rst:16
-msgid "matchzoo.utils.roc\\_auc module"
+#: matchzoo.utils.util:1 of
+msgid "Utility functions."
 msgstr ""
 
-#: ../../source/matchzoo.utils.rst:24
-msgid "matchzoo.utils.utility module"
+#: matchzoo.utils.util.dotdict:1 of
+msgid "基类：:class:`dict`"
 msgstr ""
 
-#: ../../source/matchzoo.utils.rst:33
+#: matchzoo.utils.util.dotdict:1 of
+msgid "make dict have the dict.attr access mode."
+msgstr ""
+
+#: ../../source/matchzoo.utils.rst:17
 msgid "Module contents"
 msgstr ""
 

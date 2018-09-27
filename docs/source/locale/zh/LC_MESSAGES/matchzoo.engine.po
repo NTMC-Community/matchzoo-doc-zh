@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-06 13:13+0000\n"
+"POT-Creation-Date: 2018-09-27 15:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../source/matchzoo.engine.rst:2
 msgid "matchzoo.engine package"
@@ -26,6 +26,36 @@ msgid "Submodules"
 msgstr ""
 
 #: ../../source/matchzoo.engine.rst:8
+msgid "matchzoo.engine.base\\_generator module"
+msgstr ""
+
+#: matchzoo.engine.base_generator:1 of
+msgid "Base generator."
+msgstr ""
+
+#: matchzoo.engine.base_generator.BaseGenerator:1 of
+msgid "基类：:class:`keras.utils.data_utils.Sequence`"
+msgstr ""
+
+#: matchzoo.engine.base_generator.BaseGenerator:1 of
+msgid "Abstract base class of all matchzoo generators."
+msgstr ""
+
+#: matchzoo.engine.base_generator.BaseGenerator:3 of
+msgid ""
+"Every generator must implement :meth:`_get_batch_of_transformed_samples` "
+"method."
+msgstr ""
+
+#: matchzoo.engine.base_generator.BaseGenerator.on_epoch_end:1 of
+msgid "Reorganize the index array while epoch is ended."
+msgstr ""
+
+#: matchzoo.engine.base_generator.BaseGenerator.reset:1 of
+msgid "Reset the generator from begin."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:16
 msgid "matchzoo.engine.base\\_model module"
 msgstr ""
 
@@ -49,11 +79,16 @@ msgstr ""
 #: matchzoo.engine.base_model.BaseModel.backend
 #: matchzoo.engine.base_model.BaseModel.evaluate
 #: matchzoo.engine.base_model.BaseModel.fit
+#: matchzoo.engine.base_model.BaseModel.fit_generator
 #: matchzoo.engine.base_model.BaseModel.get_default_params
 #: matchzoo.engine.base_model.BaseModel.params
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.load_model
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform
+#: matchzoo.engine.base_preprocessor.load_preprocessor
 #: matchzoo.engine.base_task.BaseTask.list_available_losses
 #: matchzoo.engine.base_task.BaseTask.list_available_metrics
 #: matchzoo.engine.base_task.BaseTask.output_shape
@@ -96,10 +131,16 @@ msgstr ""
 
 #: matchzoo.engine.base_model.BaseModel.evaluate
 #: matchzoo.engine.base_model.BaseModel.fit
+#: matchzoo.engine.base_model.BaseModel.fit_generator
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.BaseModel.save
 #: matchzoo.engine.base_model.load_model
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.save
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform
+#: matchzoo.engine.base_preprocessor.load_preprocessor
 #: matchzoo.engine.param_table.ParamTable.add matchzoo.engine.tune.tune of
 msgid "参数"
 msgstr ""
@@ -130,10 +171,12 @@ msgstr ""
 
 #: matchzoo.engine.base_model.BaseModel.evaluate
 #: matchzoo.engine.base_model.BaseModel.fit
+#: matchzoo.engine.base_model.BaseModel.fit_generator
 #: matchzoo.engine.base_model.BaseModel.get_default_params
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.load_model
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation
+#: matchzoo.engine.base_preprocessor.load_preprocessor
 #: matchzoo.engine.base_task.BaseTask.list_available_losses
 #: matchzoo.engine.base_task.BaseTask.list_available_metrics
 #: matchzoo.engine.base_task.list_available_tasks
@@ -174,20 +217,45 @@ msgstr ""
 msgid "number of epochs to train the model."
 msgstr ""
 
-#: matchzoo.engine.base_model.BaseModel.fit:14 of
+#: matchzoo.engine.base_model.BaseModel.fit:14
+#: matchzoo.engine.base_model.BaseModel.fit_generator:14 of
 msgid ""
 "0, 1, or 2. Verbosity mode. 0 = silent, 1 = verbose, 2 = one log line per"
 " epoch."
 msgstr ""
 
-#: matchzoo.engine.base_model.BaseModel.fit:17 of
+#: matchzoo.engine.base_model.BaseModel.fit:17
+#: matchzoo.engine.base_model.BaseModel.fit_generator:17 of
 msgid ":py:class:`~keras.callbacks.History`"
 msgstr ""
 
-#: matchzoo.engine.base_model.BaseModel.fit:18 of
+#: matchzoo.engine.base_model.BaseModel.fit:18
+#: matchzoo.engine.base_model.BaseModel.fit_generator:18 of
 msgid ""
 "A `keras.callbacks.History` instance. Its history attribute contains all "
 "information collected during training."
+msgstr ""
+
+#: matchzoo.engine.base_model.BaseModel.fit_generator:1 of
+msgid "Fit the model with matchzoo `generator`."
+msgstr ""
+
+#: matchzoo.engine.base_model.BaseModel.fit_generator:3 of
+msgid "See :meth:`keras.models.Model.fit_generator` for more details."
+msgstr ""
+
+#: matchzoo.engine.base_model.BaseModel.fit_generator:6 of
+msgid "A generator, an instance of :class:`engine.BaseGenerator`."
+msgstr ""
+
+#: matchzoo.engine.base_model.BaseModel.fit_generator:9 of
+msgid ""
+"Total number of steps (batches of samples) to yield from "
+":attr:`generator` object."
+msgstr ""
+
+#: matchzoo.engine.base_model.BaseModel.fit_generator:12 of
+msgid "Number of epochs to train the model."
 msgstr ""
 
 #: matchzoo.engine.base_model.BaseModel.get_default_params:1 of
@@ -278,18 +346,12 @@ msgstr ""
 msgid "a :class:`BaseModel` instance"
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:16
+#: ../../source/matchzoo.engine.rst:24
 msgid "matchzoo.engine.base\\_preprocessor module"
 msgstr ""
 
 #: matchzoo.engine.base_preprocessor:1 of
-msgid "Base Preprocessor, consist of multiple :class:`ProcessorUnit`."
-msgstr ""
-
-#: matchzoo.engine.base_preprocessor:3 of
-msgid ""
-"Each sub-class should employ a sequence of :class:`ProcessorUnit` and "
-":class:`StatefulProcessorUnit` to handle input data."
+msgid ":class:`BasePreprocessor` define input and ouutput for processors."
 msgstr ""
 
 #: matchzoo.engine.base_preprocessor.BasePreprocessor:1
@@ -299,46 +361,113 @@ msgid "基类：:class:`object`"
 msgstr ""
 
 #: matchzoo.engine.base_preprocessor.BasePreprocessor:1 of
-msgid "Abstract base class for model-wise processors."
+msgid ":class:`BasePreprocessor` to input handle data."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit:1 of
+msgid "Fit parameters on input data."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit:3
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform:3 of
+msgid ""
+"This method is an abstract base method, need to be implemented in the "
+"child class."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit:6 of
+msgid "This method is expected to return itself as a callable object."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit:10
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:4 of
+msgid "List of text-left, text-right, label triples."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit:13 of
+msgid ":py:class:`~matchzoo.engine.base_preprocessor.BasePreprocessor`"
 msgstr ""
 
 #: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:1 of
-msgid "Apply fit-transform on input data."
+msgid "Call fit-transform."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:3 of
-msgid "This method is an abstract method, need to be implemented in sub-class."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:6
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform:10 of
+msgid "String indicate the pre-processing stage, `train` or `test` expected."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:1 of
-msgid "Inference whether a process_unit is `Stateful`."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:10
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:12
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform:14
+#: matchzoo.engine.base_preprocessor.load_preprocessor:5 of
+msgid ":py:class:`~matchzoo.datapack.DataPack`"
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:4 of
-msgid "Given a process unit instance."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.save:1 of
+msgid "Save the :class:`DSSMPreprocessor` object."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:6 of
-msgid "process input text."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.save:3 of
+msgid ""
+"A saved :class:`DSSMPreprocessor` is represented as a directory with the "
+"`context` object (fitted parameters on training data), it will be saved "
+"by `pickle`."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle of
-msgid "return ctx"
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.save:8 of
+msgid "directory path of the saved :class:`DSSMPreprocessor`."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:8 of
-msgid "Context as dict, i.e. fitted parameters."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:1 of
+msgid "Convert user input into :class:`DataPack` consist of two tables."
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:9 of
-msgid ":py:data:`~typing.Union`\\[:py:class:`dict`, :py:data:`~typing.Any`]"
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:3 of
+msgid ""
+"The `content` dict stores the id with it's corresponded input text. The "
+"`relation` table stores the relation between `text_left` and"
 msgstr ""
 
-#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:10 of
-msgid "Transformed user input given transformer."
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:5 of
+msgid "`text_right`."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:24
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:8 of
+msgid "Raw user inputs, list of tuples."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:10 of
+msgid "`train` or `test`."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.segmentation:13 of
+msgid "User input into a :class:`DataPack` with content and relation."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform:1 of
+msgid "Transform input data to expected manner."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.transform:7 of
+msgid ""
+"List of text-left, text-right, label triples, or list of text-left, text-"
+"right tuples (test stage)."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.load_preprocessor:1 of
+msgid "Load the fitted `context`. The reverse function of :meth:`save`."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.load_preprocessor:4 of
+msgid "directory path of the saved model."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.load_preprocessor:6 of
+msgid "a :class:`DSSMPreprocessor` instance."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:32
 msgid "matchzoo.engine.base\\_task module"
 msgstr ""
 
@@ -364,6 +493,10 @@ msgstr ""
 msgid "a list of available metrics."
 msgstr ""
 
+#: matchzoo.engine.base_task.BaseTask.output_dtype:1 of
+msgid "*return* -- output data type for specific task."
+msgstr ""
+
 #: matchzoo.engine.base_task.BaseTask.output_shape:1 of
 msgid "*return* -- output shape of a single sample of the task."
 msgstr ""
@@ -380,7 +513,7 @@ msgstr ""
 msgid "a list of available task types."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:32
+#: ../../source/matchzoo.engine.rst:40
 msgid "matchzoo.engine.hyper\\_spaces module"
 msgstr ""
 
@@ -434,7 +567,7 @@ msgstr ""
 msgid ":func:`hyperopt.hp.uniform` proxy."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:40
+#: ../../source/matchzoo.engine.rst:48
 msgid "matchzoo.engine.param module"
 msgstr ""
 
@@ -508,7 +641,7 @@ msgstr ""
 msgid ":py:data:`~typing.Any`"
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:48
+#: ../../source/matchzoo.engine.rst:56
 msgid "matchzoo.engine.param\\_table module"
 msgstr ""
 
@@ -540,7 +673,7 @@ msgstr ""
 msgid ":py:class:`dict`"
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:56
+#: ../../source/matchzoo.engine.rst:64
 msgid "matchzoo.engine.tune module"
 msgstr ""
 
@@ -568,403 +701,7 @@ msgstr ""
 msgid "A list of trials of the tuning process."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:65
+#: ../../source/matchzoo.engine.rst:73
 msgid "Module contents"
 msgstr ""
-
-#~ msgid "Base Model."
-#~ msgstr ""
-
-#~ msgid "Bases: :class:`abc.ABC`"
-#~ msgstr ""
-
-#~ msgid "Abstract base class of all matchzoo models."
-#~ msgstr ""
-
-#~ msgid "return model backend, a keras model instance."
-#~ msgstr ""
-
-#~ msgid "Return type"
-#~ msgstr ""
-
-#~ msgid ":py:class:`~keras.engine.training.Model`"
-#~ msgstr ""
-
-#~ msgid "Build model, each sub class need to impelemnt this method."
-#~ msgstr ""
-
-#~ msgid "Example"
-#~ msgstr ""
-
-#~ msgid "Compile model for training."
-#~ msgstr ""
-
-#~ msgid "Evaluate the model."
-#~ msgstr ""
-
-#~ msgid "See :meth:`keras.models.Model.evaluate` for more details."
-#~ msgstr ""
-
-#~ msgid "Parameters"
-#~ msgstr ""
-
-#~ msgid "input data"
-#~ msgstr ""
-
-#~ msgid "labels"
-#~ msgstr ""
-
-#~ msgid "number of samples per gradient update"
-#~ msgstr ""
-
-#~ msgid "verbosity mode, 0 or 1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:data:`~typing.Union`\\[:py:class:`float`, "
-#~ ":py:class:`~typing.List`\\[:py:class:`float`]]"
-#~ msgstr ""
-
-#~ msgid "Returns"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "scalar test loss (if the model has"
-#~ " a single output and no metrics) "
-#~ "or list of scalars (if the model"
-#~ " has multiple outputs and/or metrics). "
-#~ "The attribute `model.backend.metrics_names` will "
-#~ "give you the display labels for "
-#~ "the scalar outputs."
-#~ msgstr ""
-
-#~ msgid "Fit the model."
-#~ msgstr ""
-
-#~ msgid "See :meth:`keras.models.Model.fit` for more details."
-#~ msgstr ""
-
-#~ msgid "input data."
-#~ msgstr ""
-
-#~ msgid "labels."
-#~ msgstr ""
-
-#~ msgid "number of samples per gradient update."
-#~ msgstr ""
-
-#~ msgid "number of epochs to train the model."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "0, 1, or 2. Verbosity mode. 0 "
-#~ "= silent, 1 = verbose, 2 = "
-#~ "one log line per epoch."
-#~ msgstr ""
-
-#~ msgid ":py:class:`~keras.callbacks.History`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A `keras.callbacks.History` instance. Its "
-#~ "history attribute contains all information "
-#~ "collected during training."
-#~ msgstr ""
-
-#~ msgid "Model default parameters."
-#~ msgstr ""
-
-#~ msgid "The common usage is to instantiate :class:`matchzoo.engine.ModelParams`"
-#~ msgstr ""
-
-#~ msgid "first, then set the model specific parametrs."
-#~ msgstr ""
-
-#~ msgid "Examples"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Notice that all parameters must be "
-#~ "serialisable for the entire model to "
-#~ "be serialisable. Therefore, it's strongly "
-#~ "recommended to use python native data"
-#~ " types to store parameters."
-#~ msgstr ""
-
-#~ msgid ":py:class:`~matchzoo.engine.param_table.ParamTable`"
-#~ msgstr ""
-
-#~ msgid "model parameters"
-#~ msgstr ""
-
-#~ msgid "Guess and fill missing parameters in :attr:`params`."
-#~ msgstr ""
-
-#~ msgid "Note: likely to be moved to a higher level API in the future."
-#~ msgstr ""
-
-#~ msgid "*return* -- model parameters."
-#~ msgstr ""
-
-#~ msgid "Generate output predictions for the input samples."
-#~ msgstr ""
-
-#~ msgid "See :meth:`keras.models.Model.predict` for more details."
-#~ msgstr ""
-
-#~ msgid ":py:class:`~numpy.ndarray`"
-#~ msgstr ""
-
-#~ msgid "numpy array(s) of predictions"
-#~ msgstr ""
-
-#~ msgid "Save the model."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A saved model is represented as a"
-#~ " directory with two files. One is "
-#~ "a model parameters file saved by "
-#~ "`pickle`, and the other one is a"
-#~ " model h5 file saved by `keras`."
-#~ msgstr ""
-
-#~ msgid "directory path of the saved model"
-#~ msgstr ""
-
-#~ msgid "Load a model. The reverse function of :meth:`BaseModel.save`."
-#~ msgstr ""
-
-#~ msgid ":py:class:`~matchzoo.engine.base_model.BaseModel`"
-#~ msgstr ""
-
-#~ msgid "a :class:`BaseModel` instance"
-#~ msgstr ""
-
-#~ msgid "Base Preprocessor, consist of multiple :class:`ProcessorUnit`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Each sub-class should employ a "
-#~ "sequence of :class:`ProcessorUnit` and "
-#~ ":class:`StatefulProcessorUnit` to handle input "
-#~ "data."
-#~ msgstr ""
-
-#~ msgid "Bases: :class:`object`"
-#~ msgstr ""
-
-#~ msgid "Abstract base class for model-wise processors."
-#~ msgstr ""
-
-#~ msgid "Apply fit-transform on input data."
-#~ msgstr ""
-
-#~ msgid "This method is an abstract method, need to be implemented in sub-class."
-#~ msgstr ""
-
-#~ msgid "Inference whether a process_unit is `Stateful`."
-#~ msgstr ""
-
-#~ msgid "Given a process unit instance."
-#~ msgstr ""
-
-#~ msgid "process input text."
-#~ msgstr ""
-
-#~ msgid "return ctx"
-#~ msgstr ""
-
-#~ msgid "Context as dict, i.e. fitted parameters."
-#~ msgstr ""
-
-#~ msgid ":py:data:`~typing.Union`\\[:py:class:`dict`, :py:data:`~typing.Any`]"
-#~ msgstr ""
-
-#~ msgid "Transformed user input given transformer."
-#~ msgstr ""
-
-#~ msgid "Base task."
-#~ msgstr ""
-
-#~ msgid "Base Task, shouldn't be used directly."
-#~ msgstr ""
-
-#~ msgid ":py:class:`list`"
-#~ msgstr ""
-
-#~ msgid "a list of available losses."
-#~ msgstr ""
-
-#~ msgid "a list of available metrics."
-#~ msgstr ""
-
-#~ msgid "*return* -- output shape of a single sample of the task."
-#~ msgstr ""
-
-#~ msgid ":py:class:`tuple`"
-#~ msgstr ""
-
-#~ msgid ":py:class:`~typing.List`\\[:py:class:`~typing.Type`\\[:py:class:`~matchzoo.engine.base_task.BaseTask`]]"
-#~ msgstr ""
-
-#~ msgid "a list of available task types."
-#~ msgstr ""
-
-#~ msgid "Hyper parameter search spaces wrapping `hyperopt`."
-#~ msgstr ""
-
-#~ msgid "Hyperopt proxy class."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "See `hyperopt`'s documentation for more "
-#~ "details: https://github.com/hyperopt/hyperopt/wiki/FMin"
-#~ msgstr ""
-
-#~ msgid "Reason of these wrappers:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A hyper space in `hyperopt` requires "
-#~ "a `label` to instantiate. This `label`"
-#~ " is used later as a reference "
-#~ "to original hyper space that is "
-#~ "sampled. In `matchzoo`, hyper spaces are"
-#~ " used in :class:`matchzoo.engine.Param`. Only "
-#~ "if a hyper space's label matches "
-#~ "its parent :class:`matchzoo.engine.Param`'s name,"
-#~ " `matchzoo` can correctly back-refrenced"
-#~ " the parameter got sampled. This can"
-#~ " be done by asking the user "
-#~ "always use the same name for a "
-#~ "parameter and its hyper space, but "
-#~ "typos can occur. As a result, "
-#~ "these wrappers are created to hide "
-#~ "hyper spaces' `label`, and always "
-#~ "correctly bind them with its parameter's"
-#~ " name."
-#~ msgstr ""
-
-#~ msgid "Bases: :class:`matchzoo.engine.hyper_spaces.HyperoptProxy`"
-#~ msgstr ""
-
-#~ msgid ":func:`hyperopt.hp.choice` proxy."
-#~ msgstr ""
-
-#~ msgid ":func:`hyperopt.hp.quniform` proxy."
-#~ msgstr ""
-
-#~ msgid ":func:`hyperopt.hp.uniform` proxy."
-#~ msgstr ""
-
-#~ msgid "Parameter class."
-#~ msgstr ""
-
-#~ msgid "Basic usages with a name and  value:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use with a validator to make sure"
-#~ " the parameter always keeps a valid"
-#~ " value."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use with a hyper space. Setting up"
-#~ " a hyper space for a parameter "
-#~ "makes the parameter tunable in a "
-#~ ":class:`matchzoo.engine.Tuner`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The boolean value of a :class:`Param`"
-#~ " instance is only `True` when the "
-#~ "value is not `None`. This is "
-#~ "because some default falsy values like"
-#~ " zero or an empty list are "
-#~ "valid parameter values. In other words,"
-#~ " the boolean value means to be "
-#~ "\"if the parameter value is filled\"."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A `_pre_assignment_hook` is initialized as "
-#~ "a data type convertor if the value"
-#~ " is set as a number to keep "
-#~ "data type consistency of the parameter."
-#~ " This conversion supports python built-"
-#~ "in numbers, `numpy` numbers, and any "
-#~ "number that inherits :class:`numbers.Number`."
-#~ msgstr ""
-
-#~ msgid "*return* -- Hyper space of the parameter."
-#~ msgstr ""
-
-#~ msgid ":py:class:`~hyperopt.pyll.base.Apply`"
-#~ msgstr ""
-
-#~ msgid "*return* -- Name of the parameter."
-#~ msgstr ""
-
-#~ msgid ":py:class:`str`"
-#~ msgstr ""
-
-#~ msgid "*return* -- Validator of the parameter."
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:data:`~typing.Callable`\\[\\[:py:data:`~typing.Any`], "
-#~ ":py:class:`bool`]"
-#~ msgstr ""
-
-#~ msgid "*return* -- Value of the parameter."
-#~ msgstr ""
-
-#~ msgid ":py:data:`~typing.Any`"
-#~ msgstr ""
-
-#~ msgid "Parameters table class."
-#~ msgstr ""
-
-#~ msgid "Parameter table class."
-#~ msgstr ""
-
-#~ msgid "parameter to add."
-#~ msgstr ""
-
-#~ msgid ":py:class:`bool`"
-#~ msgstr ""
-
-#~ msgid "`True` if all params are filled, `False` otherwise."
-#~ msgstr ""
-
-#~ msgid "*return* -- Hyper space of the table, a valid `hyperopt` graph."
-#~ msgstr ""
-
-#~ msgid ":py:class:`dict`"
-#~ msgstr ""
-
-#~ msgid "Tuner class. Currently a minimum working demo."
-#~ msgstr ""
-
-#~ msgid "Tune the `model` `max_evals` times."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Construct a hyper parameter searching "
-#~ "space by extracting all parameters in"
-#~ " `model` that have a defined hyper"
-#~ " space. Then, using `hyperopt` API, "
-#~ "iteratively sample parameters and test "
-#~ "for loss, and pick the best trial"
-#~ " out of all. Currently a minimum "
-#~ "working demo."
-#~ msgstr ""
-
-#~ msgid "Number of evaluations of a single tuning process."
-#~ msgstr ""
-
-#~ msgid "A list of trials of the tuning process."
-#~ msgstr ""
 
