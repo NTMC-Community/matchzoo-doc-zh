@@ -1,0 +1,4 @@
+[submodule "MatchZoo"]
+	path = MatchZoo
+	url = https://github.com/NTSC-Community/MatchZoo.git
+	branch = 2.0

@@ -1,0 +1,835 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>matchzoo package &mdash; MatchZoo 2.0 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="matchzoo.engine package" href="matchzoo.engine.html" />
+    <link rel="prev" title="Welcome to MatchZoo&#39;s documentation!" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MatchZoo
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">API Document:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">matchzoo package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.engine.html">matchzoo.engine package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.generators.html">matchzoo.generators package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.models.html">matchzoo.models package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.preprocessor.html">matchzoo.preprocessor package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.tasks.html">matchzoo.tasks package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.utils.html">matchzoo.utils package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.datapack">matchzoo.datapack module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.embedding">matchzoo.embedding module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.logger">matchzoo.logger module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.losses">matchzoo.losses module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.metrics">matchzoo.metrics module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo.version">matchzoo.version module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-matchzoo">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MatchZoo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>matchzoo package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/matchzoo.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="matchzoo-package">
+<h1>matchzoo package<a class="headerlink" href="#matchzoo-package" title="永久链接至标题">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="永久链接至标题">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.engine.html">matchzoo.engine package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.base_generator">matchzoo.engine.base_generator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.base_model">matchzoo.engine.base_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.base_preprocessor">matchzoo.engine.base_preprocessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.base_task">matchzoo.engine.base_task module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.hyper_spaces">matchzoo.engine.hyper_spaces module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.param">matchzoo.engine.param module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.param_table">matchzoo.engine.param_table module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine.tune">matchzoo.engine.tune module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.engine.html#module-matchzoo.engine">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.generators.html">matchzoo.generators package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.generators.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.generators.html#module-matchzoo.generators.list_generator">matchzoo.generators.list_generator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.generators.html#module-matchzoo.generators.pair_generator">matchzoo.generators.pair_generator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.generators.html#module-matchzoo.generators.point_generator">matchzoo.generators.point_generator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.generators.html#module-matchzoo.generators">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.models.html">matchzoo.models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models.arci_model">matchzoo.models.arci_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models.cdssm_model">matchzoo.models.cdssm_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models.dense_baseline_model">matchzoo.models.dense_baseline_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models.dssm_model">matchzoo.models.dssm_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models.naive_model">matchzoo.models.naive_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.models.html#module-matchzoo.models">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.preprocessor.html">matchzoo.preprocessor package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor.arci_preprocessor">matchzoo.preprocessor.arci_preprocessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor.cdssm_preprocessor">matchzoo.preprocessor.cdssm_preprocessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor.dssm_preprocessor">matchzoo.preprocessor.dssm_preprocessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor.process_units">matchzoo.preprocessor.process_units module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor.segment_mixin">matchzoo.preprocessor.segment_mixin module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.preprocessor.html#module-matchzoo.preprocessor">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.tasks.html">matchzoo.tasks package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.tasks.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.tasks.html#module-matchzoo.tasks.classification">matchzoo.tasks.classification module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.tasks.html#module-matchzoo.tasks.ranking">matchzoo.tasks.ranking module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.tasks.html#module-matchzoo.tasks.utils">matchzoo.tasks.utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.tasks.html#module-matchzoo.tasks">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.utils.html">matchzoo.utils package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.utils.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.utils.html#module-matchzoo.utils.util">matchzoo.utils.util module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.utils.html#module-matchzoo.utils.util_preprocessor">matchzoo.utils.util_preprocessor module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matchzoo.utils.html#module-matchzoo.utils">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="永久链接至标题">¶</a></h2>
+</div>
+<div class="section" id="module-matchzoo.datapack">
+<span id="matchzoo-datapack-module"></span><h2>matchzoo.datapack module<a class="headerlink" href="#module-matchzoo.datapack" title="永久链接至标题">¶</a></h2>
+<p>Matchzoo DataPack, pair-wise tuple (feature) and context as input.</p>
+<dl class="class">
+<dt id="matchzoo.datapack.DataPack">
+<em class="property">class </em><code class="descclassname">matchzoo.datapack.</code><code class="descname">DataPack</code><span class="sig-paren">(</span><em>relation</em>, <em>left</em>, <em>right</em>, <em>context={}</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.datapack.DataPack" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Matchzoo <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a> data structure, store dataframe and context.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">left</span> <span class="o">=</span> <span class="p">[</span>
+<span class="gp">... </span>    <span class="p">[</span><span class="s1">&#39;qid1&#39;</span><span class="p">,</span> <span class="s1">&#39;query 1&#39;</span><span class="p">,</span> <span class="s1">&#39;feature 1&#39;</span><span class="p">],</span>
+<span class="gp">... </span>    <span class="p">[</span><span class="s1">&#39;qid2&#39;</span><span class="p">,</span> <span class="s1">&#39;query 2&#39;</span><span class="p">,</span> <span class="s1">&#39;feature 2&#39;</span><span class="p">]</span>
+<span class="gp">... </span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">right</span> <span class="o">=</span> <span class="p">[</span>
+<span class="gp">... </span>    <span class="p">[</span><span class="s1">&#39;did1&#39;</span><span class="p">,</span> <span class="s1">&#39;document 1&#39;</span><span class="p">],</span>
+<span class="gp">... </span>    <span class="p">[</span><span class="s1">&#39;did2&#39;</span><span class="p">,</span> <span class="s1">&#39;document 2&#39;</span><span class="p">]</span>
+<span class="gp">... </span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relation</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;qid1&#39;</span><span class="p">,</span> <span class="s1">&#39;did1&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;qid2&#39;</span><span class="p">,</span> <span class="s1">&#39;did2&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;vocab_size&#39;</span><span class="p">:</span> <span class="mi">2000</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relation_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">relation</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">left</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">left</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">right</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">right</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dp</span> <span class="o">=</span> <span class="n">DataPack</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="n">relation</span><span class="o">=</span><span class="n">relation_df</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">left</span><span class="o">=</span><span class="n">left</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">right</span><span class="o">=</span><span class="n">right</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">context</span><span class="o">=</span><span class="n">context</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">dp</span><span class="p">)</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relation</span><span class="p">,</span> <span class="n">context</span> <span class="o">=</span> <span class="n">dp</span><span class="o">.</span><span class="n">relation</span><span class="p">,</span> <span class="n">dp</span><span class="o">.</span><span class="n">context</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">context</span>
+<span class="go">{&#39;vocab_size&#39;: 2000}</span>
+</pre></div>
+</div>
+<dl class="attribute">
+<dt id="matchzoo.datapack.DataPack.DATA_FILENAME">
+<code class="descname">DATA_FILENAME</code><em class="property"> = 'data.dill'</em><a class="headerlink" href="#matchzoo.datapack.DataPack.DATA_FILENAME" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.datapack.DataPack.context">
+<code class="descname">context</code><a class="headerlink" href="#matchzoo.datapack.DataPack.context" title="永久链接至目标">¶</a></dt>
+<dd><p><cite>DataPack</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">Get <a class="reference internal" href="#matchzoo.datapack.DataPack.context" title="matchzoo.datapack.DataPack.context"><code class="xref py py-meth docutils literal notranslate"><span class="pre">context()</span></code></a> of class</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.datapack.DataPack.left">
+<code class="descname">left</code><a class="headerlink" href="#matchzoo.datapack.DataPack.left" title="永久链接至目标">¶</a></dt>
+<dd><p>Get <a class="reference internal" href="#matchzoo.datapack.DataPack.left" title="matchzoo.datapack.DataPack.left"><code class="xref py py-meth docutils literal notranslate"><span class="pre">left()</span></code></a> of <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.datapack.DataPack.relation">
+<code class="descname">relation</code><a class="headerlink" href="#matchzoo.datapack.DataPack.relation" title="永久链接至目标">¶</a></dt>
+<dd><p>Get <a class="reference internal" href="#matchzoo.datapack.DataPack.relation" title="matchzoo.datapack.DataPack.relation"><code class="xref py py-meth docutils literal notranslate"><span class="pre">relation()</span></code></a> of <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.datapack.DataPack.right">
+<code class="descname">right</code><a class="headerlink" href="#matchzoo.datapack.DataPack.right" title="永久链接至目标">¶</a></dt>
+<dd><p>Get <a class="reference internal" href="#matchzoo.datapack.DataPack.right" title="matchzoo.datapack.DataPack.right"><code class="xref py py-meth docutils literal notranslate"><span class="pre">right()</span></code></a> of <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.datapack.DataPack.save">
+<code class="descname">save</code><span class="sig-paren">(</span><em>dirpath</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.datapack.DataPack.save" title="永久链接至目标">¶</a></dt>
+<dd><p>Save the <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a> object.</p>
+<p>A saved <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a> is represented as a directory with a
+<a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a> object (transformed user input as features and
+context), it will be saved by <cite>pickle</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>dirpath</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Path</span></code>]) -- directory path of the saved <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a>.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.datapack.load_datapack">
+<code class="descclassname">matchzoo.datapack.</code><code class="descname">load_datapack</code><span class="sig-paren">(</span><em>dirpath</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.datapack.load_datapack" title="永久链接至目标">¶</a></dt>
+<dd><p>Load a <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a>. The reverse function of <code class="xref py py-meth docutils literal notranslate"><span class="pre">save()</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>dirpath</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Path</span></code>]) -- directory path of the saved model.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">a <a class="reference internal" href="#matchzoo.datapack.DataPack" title="matchzoo.datapack.DataPack"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataPack</span></code></a> instance.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.embedding">
+<span id="matchzoo-embedding-module"></span><h2>matchzoo.embedding module<a class="headerlink" href="#module-matchzoo.embedding" title="永久链接至标题">¶</a></h2>
+<p>Matchzoo toolkit for token embedding.</p>
+<dl class="class">
+<dt id="matchzoo.embedding.Embedding">
+<em class="property">class </em><code class="descclassname">matchzoo.embedding.</code><code class="descname">Embedding</code><span class="sig-paren">(</span><em>embedding_file</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.embedding.Embedding" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Embedding class.</p>
+<dl class="docutils">
+<dt>TODO: <a class="reference external" href="https://github.com/dmlc/gluon-nlp/blob/">https://github.com/dmlc/gluon-nlp/blob/</a></dt>
+<dd>5e65c4751e1be8920b1021822a988af77224902f/
+gluonnlp/embedding/token_embedding.py</dd>
+</dl>
+<p class="rubric">实际案例</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">embed</span> <span class="o">=</span> <span class="n">Embedding</span><span class="p">(</span><span class="s1">&#39;tests/sample/embed_10.txt&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Need term_index</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">embed</span><span class="o">.</span><span class="n">build</span><span class="p">({</span><span class="s1">&#39;G&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="s1">&#39;[PAD]&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">})</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_state</span> <span class="o">=</span> <span class="n">embed</span><span class="o">.</span><span class="n">index_state</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_state</span> <span class="c1"># doctest: +SKIP</span>
+<span class="go">{4: 1, 2: 1, 3: 1, 1: 2, 0: 0}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">embedding_mat</span> <span class="o">=</span> <span class="n">embed</span><span class="o">.</span><span class="n">embedding_mat</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">embedding_mat</span> <span class="c1"># doctest: +SKIP</span>
+<span class="go">array([[ 0.       ,  0.       ,  0.       ,  0.       ,  0.        ,</span>
+<span class="go">     0.        ,  0.        ,  0.        ,  0.        ,  0.        ],</span>
+<span class="go">   [ 0.22785383, -0.09405118,  0.15446669,  0.20727136,  0.05943427,</span>
+<span class="go">     0.12673594,  0.02788511, -0.0433806 , -0.20548974,  0.24532762],</span>
+<span class="go">   [ 0.1       ,  0.2       ,  0.3       ,  0.4       ,  0.5       ,</span>
+<span class="go">     0.6       ,  0.7       ,  0.8       ,  0.9       ,  1.        ],</span>
+<span class="go">   [ 0.1       ,  0.2       ,  0.3       ,  0.4       ,  0.5       ,</span>
+<span class="go">     0.6       ,  0.7       ,  0.8       ,  0.9       ,  1.        ],</span>
+<span class="go">   [ 0.1       ,  0.2       ,  0.3       ,  0.4       ,  0.5       ,</span>
+<span class="go">     0.6       ,  0.7       ,  0.8       ,  0.9       ,  1.        ]])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">embedding_mat</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># doctest: +SKIP</span>
+<span class="go">array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="matchzoo.embedding.Embedding.build">
+<code class="descname">build</code><span class="sig-paren">(</span><em>term_index</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.embedding.Embedding.build" title="永久链接至目标">¶</a></dt>
+<dd><p>Build an <a class="reference internal" href="#matchzoo.embedding.Embedding.embedding_mat" title="matchzoo.embedding.Embedding.embedding_mat"><code class="xref py py-attr docutils literal notranslate"><span class="pre">embedding_mat</span></code></a> and an <a class="reference internal" href="#matchzoo.embedding.Embedding.index_state" title="matchzoo.embedding.Embedding.index_state"><code class="xref py py-attr docutils literal notranslate"><span class="pre">index_state</span></code></a>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.embedding.Embedding.embedding_dim">
+<code class="descname">embedding_dim</code><a class="headerlink" href="#matchzoo.embedding.Embedding.embedding_dim" title="永久链接至目标">¶</a></dt>
+<dd><p>Get embedding dimension.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.embedding.Embedding.embedding_file">
+<code class="descname">embedding_file</code><a class="headerlink" href="#matchzoo.embedding.Embedding.embedding_file" title="永久链接至目标">¶</a></dt>
+<dd><p>Get embedding file name.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.embedding.Embedding.embedding_mat">
+<code class="descname">embedding_mat</code><a class="headerlink" href="#matchzoo.embedding.Embedding.embedding_mat" title="永久链接至目标">¶</a></dt>
+<dd><p>Get constructed embedding matrix.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.embedding.Embedding.index_state">
+<code class="descname">index_state</code><a class="headerlink" href="#matchzoo.embedding.Embedding.index_state" title="永久链接至目标">¶</a></dt>
+<dd><p>Get word index state dictionary.</p>
+<p>0 - [PAD] word, 1 - found embed, 2 - OOV word.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.logger">
+<span id="matchzoo-logger-module"></span><h2>matchzoo.logger module<a class="headerlink" href="#module-matchzoo.logger" title="永久链接至标题">¶</a></h2>
+<p>MatchZoo Logging module.</p>
+</div>
+<div class="section" id="module-matchzoo.losses">
+<span id="matchzoo-losses-module"></span><h2>matchzoo.losses module<a class="headerlink" href="#module-matchzoo.losses" title="永久链接至标题">¶</a></h2>
+<p>Self defined loss function for ranking tasks.</p>
+<dl class="function">
+<dt id="matchzoo.losses.rank_crossentropy_loss">
+<code class="descclassname">matchzoo.losses.</code><code class="descname">rank_crossentropy_loss</code><span class="sig-paren">(</span><em>y_true</em>, <em>y_pred</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.losses.rank_crossentropy_loss" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate rank cross entropy loss.</p>
+<p>Support user defined <code class="xref py py-attr docutils literal notranslate"><span class="pre">neg_num</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>y_true</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]) -- Label.</li>
+<li><strong>y_pred</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]) -- Predicted result.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">Crossentropy loss computed by user-defined negative number.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.losses.rank_hinge_loss">
+<code class="descclassname">matchzoo.losses.</code><code class="descname">rank_hinge_loss</code><span class="sig-paren">(</span><em>y_true</em>, <em>y_pred</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.losses.rank_hinge_loss" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate rank hinge loss.</p>
+<p>Support user defined <code class="xref py py-attr docutils literal notranslate"><span class="pre">margin</span></code> and <code class="xref py py-attr docutils literal notranslate"><span class="pre">neg_num</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>y_true</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]) -- Label.</li>
+<li><strong>y_pred</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]) -- Predicted result.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">Hinge loss computed by user-defined margin.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.metrics">
+<span id="matchzoo-metrics-module"></span><h2>matchzoo.metrics module<a class="headerlink" href="#module-matchzoo.metrics" title="永久链接至标题">¶</a></h2>
+<p>Evaluation metrics for information retrieval.</p>
+<dl class="function">
+<dt id="matchzoo.metrics.average_precision">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">average_precision</code><span class="sig-paren">(</span><em>r</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.average_precision" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate average precision (area under PR curve).</p>
+<p>Relevance is binary (nonzero is relevant).</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">average_precision</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+<span class="go">0.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">average_precision</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+<span class="go">0.0</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>r</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Relevance scores (list or numpy) in rank order
+(first element is the first item).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回:</th><td class="field-body">Average precision.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.dcg_at_k">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">dcg_at_k</code><span class="sig-paren">(</span><em>r</em>, <em>k</em>, <em>method=0</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.dcg_at_k" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate discounted cumulative gain (dcg).</p>
+<p>Relevance is positive real values or binary values.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dcg_at_k</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="go">3.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dcg_at_k</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">3.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dcg_at_k</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">5.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">dcg_at_k</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
+<span class="go">&lt;class &#39;numpy.float64&#39;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dcg_at_k</span><span class="p">([],</span> <span class="mi">0</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">0.0</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>r</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Relevance scores (list or numpy) in rank order
+(first element is the first item).</li>
+<li><strong>k</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- Number of results to consider</li>
+<li><strong>method</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- If 0 then weights are [1.0, 1.0, 0.6309, 0.5, 0.4307, ...]
+If 1 then weights are [1.0, 0.6309, 0.5, 0.4307, ...].</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">Discounted cumulative gain.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.mean_average_precision">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">mean_average_precision</code><span class="sig-paren">(</span><em>rs</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.mean_average_precision" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate mean average precision.</p>
+<p>Relevance is binary (nonzero is relevant).</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rs</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">mean_average_precision</span><span class="p">(</span><span class="n">rs</span><span class="p">))</span>
+<span class="go">&lt;class &#39;numpy.float64&#39;&gt;</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>rs</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Iterator of relevance scores (list or numpy) in rank order
+(first element is the first item).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">Mean average precision.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.mean_reciprocal_rank">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">mean_reciprocal_rank</code><span class="sig-paren">(</span><em>rs</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.mean_reciprocal_rank" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate reciprocal of the rank of the first relevant item.</p>
+<p>First element is 'rank 1'. Relevance is binary (nonzero is relevant).</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">rs</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mean_reciprocal_rank</span><span class="p">(</span><span class="n">rs</span><span class="p">)</span>
+<span class="go">0.75</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>rs</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Iterator of relevance scores (list or numpy) in rank order
+(first element is the first item).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">Mean reciprocal rank.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.ndcg_at_k">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">ndcg_at_k</code><span class="sig-paren">(</span><em>r</em>, <em>k</em>, <em>method=0</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.ndcg_at_k" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate normalized discounted cumulative gain (ndcg).</p>
+<p>Relevance is positive real values or binary values.</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ndcg_at_k</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="go">1.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ndcg_at_k</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span>
+<span class="go">0.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ndcg_at_k</span><span class="p">([</span><span class="mi">1</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">1.0</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>r</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Relevance scores (list or numpy) in rank order
+(first element is the first item).</li>
+<li><strong>k</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- Number of results to consider</li>
+<li><strong>method</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- If 0 then weights are [1.0, 1.0, 0.6309, 0.5, 0.4307, ...]
+If 1 then weights are [1.0, 0.6309, 0.5, 0.4307, ...].</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">Normalized discounted cumulative gain.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.precision_at_k">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">precision_at_k</code><span class="sig-paren">(</span><em>r</em>, <em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.precision_at_k" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate precision&#64;k.</p>
+<p>Relevance is binary (nonzero is relevant).</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; r = [0, 0, 1]
+&gt;&gt;&gt; precision_at_k(r, 1)
+0.0
+&gt;&gt;&gt; precision_at_k(r, 2)
+0.0
+&gt;&gt;&gt; precision_at_k(r, 4)
+Traceback (most recent call last):
+    File &quot;&lt;stdin&gt;&quot;, line 1, in ?
+ValueError: Relevance score length &lt; k
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>r</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Relevance scores (list or numpy) in rank order
+(first element is the first item)</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">Precision &#64; k</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body">ValueError: len(r) must be &gt;= k.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="matchzoo.metrics.r_precision">
+<code class="descclassname">matchzoo.metrics.</code><code class="descname">r_precision</code><span class="sig-paren">(</span><em>r</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.metrics.r_precision" title="永久链接至目标">¶</a></dt>
+<dd><p>Calculate precision after all relevant documents have been retrieved.</p>
+<p>Relevance is binary (nonzero is relevant).</p>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r_precision</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+<span class="go">0.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r_precision</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+<span class="go">1.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">r_precision</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+<span class="go">0.0</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>r</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- Relevance scores (list or numpy) in rank order
+(first element is the first item).</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body">Precision score.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.version">
+<span id="matchzoo-version-module"></span><h2>matchzoo.version module<a class="headerlink" href="#module-matchzoo.version" title="永久链接至标题">¶</a></h2>
+<p>Matchzoo version file.</p>
+</div>
+<div class="section" id="module-matchzoo">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-matchzoo" title="永久链接至标题">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="matchzoo.engine.html" class="btn btn-neutral float-right" title="matchzoo.engine package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to MatchZoo&#39;s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, MatchZoo.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.0',
+            LANGUAGE:'zh',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
