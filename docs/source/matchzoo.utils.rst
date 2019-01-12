@@ -4,18 +4,18 @@ matchzoo.utils package
 Submodules
 ----------
 
-matchzoo.utils.util module
---------------------------
+matchzoo.utils.one\_hot module
+------------------------------
 
-.. automodule:: matchzoo.utils.util
+.. automodule:: matchzoo.utils.one_hot
     :members:
     :undoc-members:
     :show-inheritance:
 
-matchzoo.utils.util\_preprocessor module
-----------------------------------------
+matchzoo.utils.tensor\_type module
+----------------------------------
 
-.. automodule:: matchzoo.utils.util_preprocessor
+.. automodule:: matchzoo.utils.tensor_type
     :members:
     :undoc-members:
     :show-inheritance:

@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.data_pack.rst:2
+msgid "matchzoo.data\\_pack package"
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:8
+msgid "matchzoo.data\\_pack.build\\_unit\\_from\\_data\\_pack module"
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack:1 of
+msgid "Build unit from data pack."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:1 of
+msgid "Build a :class:`StatefulProcessorUnit` from a :class:`DataPack` object."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit
+#: matchzoo.data_pack.data_pack.DataPack
+#: matchzoo.data_pack.data_pack.DataPack.append_text_length
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text
+#: matchzoo.data_pack.data_pack.DataPack.drop_label
+#: matchzoo.data_pack.data_pack.DataPack.one_hot_encode_label
+#: matchzoo.data_pack.data_pack.DataPack.save
+#: matchzoo.data_pack.data_pack.DataPack.shuffle
+#: matchzoo.data_pack.data_pack.load_data_pack matchzoo.data_pack.pack.pack of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:4 of
+msgid ":class:`StatefulProcessorUnit` object to be built."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:6 of
+msgid "The input :class:`DataPack` object."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:8
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:10 of
+msgid ""
+"One of 'left', 'right', and 'both', to determine the source data for "
+"building the :class:`VocabularyUnit`."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:11 of
+msgid ""
+"Flatten the datapack or not. `True` to organize the :class:`DataPack` "
+"text as a list, and `False` to organize :class:`DataPack` text as a list "
+"of list."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:15
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:13
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:14 of
+msgid "Verbosity."
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit
+#: matchzoo.data_pack.data_pack.DataPack.copy
+#: matchzoo.data_pack.data_pack.DataPack.frame
+#: matchzoo.data_pack.data_pack.DataPack.has_label
+#: matchzoo.data_pack.data_pack.DataPack.left
+#: matchzoo.data_pack.data_pack.DataPack.relation
+#: matchzoo.data_pack.data_pack.DataPack.right
+#: matchzoo.data_pack.data_pack.DataPack.unpack
+#: matchzoo.data_pack.data_pack.load_data_pack matchzoo.data_pack.pack.pack of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:16 of
+msgid ":py:class:`~matchzoo.processor_units.processor_units.StatefulProcessorUnit`"
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text
+#: matchzoo.data_pack.data_pack.DataPack.copy
+#: matchzoo.data_pack.data_pack.DataPack.frame
+#: matchzoo.data_pack.data_pack.DataPack.one_hot_encode_label
+#: matchzoo.data_pack.data_pack.DataPack.unpack
+#: matchzoo.data_pack.data_pack.load_data_pack of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.data_pack.build_unit_from_data_pack.build_unit_from_data_pack:17 of
+msgid "A built :class:`StatefulProcessorUnit` object."
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:16
+msgid "matchzoo.data\\_pack.build\\_vocab\\_unit module"
+msgstr ""
+
+#: matchzoo.data_pack.build_vocab_unit:1
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:1 of
+msgid "Build a :class:`processor_units.VocabularyUnit` given `data_pack`."
+msgstr ""
+
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:3 of
+msgid ""
+"The `data_pack` should be preprocessed forehand, and each item in "
+"`text_left` and `text_right` columns of the `data_pack` should be a list "
+"of tokens."
+msgstr ""
+
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:8 of
+msgid "The :class:`DataPack` to build vocabulary upon."
+msgstr ""
+
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:14 of
+msgid ":py:class:`~matchzoo.processor_units.processor_units.VocabularyUnit`"
+msgstr ""
+
+#: matchzoo.data_pack.build_vocab_unit.build_vocab_unit:15 of
+msgid "A built vocabulary unit."
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:24
+msgid "matchzoo.data\\_pack.data\\_pack module"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack:1 of
+msgid "Matchzoo DataPack, pair-wise tuple (feature) and context as input."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:1
+#: matchzoo.data_pack.data_pack.DataPack.FrameView:1 of
+msgid "基类：:class:`object`"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:1 of
+msgid "Matchzoo :class:`DataPack` data structure, store dataframe and context."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:3 of
+msgid ""
+"`DataPack` is a MatchZoo native data structure that most MatchZoo data "
+"handling processes build upon. A `DataPack` consists of three parts: "
+"`left`, `right` and `relation`, each one of is a `pandas.DataFrame`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:8 of
+msgid "Store the relation between left document and right document use ids."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:11 of
+msgid "Store the content or features for id_left."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:13 of
+msgid "Store the content or features for id_right."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack:17
+#: matchzoo.data_pack.data_pack.DataPack.append_text_length:7
+#: matchzoo.data_pack.data_pack.DataPack.drop_label:7
+#: matchzoo.data_pack.data_pack.DataPack.frame:11
+#: matchzoo.data_pack.data_pack.DataPack.shuffle:7
+#: matchzoo.data_pack.data_pack.DataPack.unpack:10 of
+msgid "Example"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.FrameView:1 of
+msgid "FrameView."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.append_text_length:1 of
+msgid "Append `length_left` and `length_right` columns."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.append_text_length:3
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:11
+#: matchzoo.data_pack.data_pack.DataPack.drop_label:3
+#: matchzoo.data_pack.data_pack.DataPack.one_hot_encode_label:4
+#: matchzoo.data_pack.data_pack.DataPack.shuffle:3 of
+msgid ""
+"`True` to modify inplace, `False` to return a modified copy. (default: "
+"`False`)"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:1 of
+msgid "Apply `func` to text columns based on `mode`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:4 of
+msgid "The function to apply."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:6 of
+msgid "One of \"both\", \"left\" and \"right\"."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:8 of
+msgid ""
+"If set, use new names for results instead of replacing the original "
+"columns. To set `rename` in \"both\" mode, use a tuple of `str`, e.g. "
+"(\"text_left_new_name\", \"text_right_new_name\")."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:20
+#: matchzoo.data_pack.pack.pack:24 of
+msgid "Examples::"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:27 of
+msgid "To apply `len` on the left text and add the result as 'length_left':"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:34 of
+msgid "To do the same to the right text:"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:41 of
+msgid "To do the same to the both texts at the same time:"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.apply_on_text:44 of
+msgid "To suppress outputs:"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.copy:1
+#: matchzoo.data_pack.data_pack.load_data_pack:5
+#: matchzoo.data_pack.pack.pack:26 of
+msgid ":py:class:`~matchzoo.data_pack.data_pack.DataPack`"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.copy:2 of
+msgid "A deep copy."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.drop_label:1 of
+msgid "Remove `label` column from the data pack."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.frame:1 of
+msgid "View the data pack as a :class:`pandas.DataFrame`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.frame:3 of
+msgid ""
+"Returned data frame is created by merging the left data frame, the right "
+"dataframe and the relation data frame. Use `[]` to access an item or a "
+"slice of items."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.frame:7 of
+msgid ":py:class:`~matchzoo.data_pack.data_pack.DataPack.FrameView`"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.frame:8 of
+msgid "A :class:`matchzoo.DataPack.FrameView` instance."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.has_label:1 of
+msgid "`True` if `label` column exists, `False` other wise."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.has_label of
+msgid "type"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.has_label:3 of
+msgid "return"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.has_label:5 of
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.left:1 of
+msgid "Get :meth:`left` of :class:`DataPack`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.left:3
+#: matchzoo.data_pack.data_pack.DataPack.relation:3
+#: matchzoo.data_pack.data_pack.DataPack.right:3 of
+msgid ":py:class:`~pandas.core.frame.DataFrame`"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.one_hot_encode_label:1 of
+msgid "One-hot encode `label` column of `relation`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.one_hot_encode_label:3 of
+msgid "Number of classes."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.relation:1 of
+msgid "Get :meth:`relation` of :class:`DataPack`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.right:1 of
+msgid "Get :meth:`right` of :class:`DataPack`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.save:1 of
+msgid "Save the :class:`DataPack` object."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.save:3 of
+msgid ""
+"A saved :class:`DataPack` is represented as a directory with a "
+":class:`DataPack` object (transformed user input as features and "
+"context), it will be saved by `pickle`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.save:8 of
+msgid "directory path of the saved :class:`DataPack`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.shuffle:1 of
+msgid "Shuffle the data pack by shuffling the relation column."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.unpack:1 of
+msgid "Unpack the data for training."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.unpack:3 of
+msgid ""
+"The return value can be directly feed to `model.fit` or "
+"`model.fit_generator`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.unpack:6 of
+msgid ""
+":py:class:`~typing.Tuple`\\[:py:class:`~typing.Dict`\\[:py:class:`str`, "
+"<built-in function array>], :py:data:`~typing.Optional`\\[<built-in "
+"function array>]]"
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.DataPack.unpack:7 of
+msgid "A tuple of (X, y). `y` is `None` if `self` has no label."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.load_data_pack:1 of
+msgid "Load a :class:`DataPack`. The reverse function of :meth:`save`."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.load_data_pack:4 of
+msgid "directory path of the saved model."
+msgstr ""
+
+#: matchzoo.data_pack.data_pack.load_data_pack:6 of
+msgid "a :class:`DataPack` instance."
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:32
+msgid "matchzoo.data\\_pack.pack module"
+msgstr ""
+
+#: matchzoo.data_pack.pack:1 of
+msgid "Convert list of input into class:`DataPack` expected format."
+msgstr ""
+
+#: matchzoo.data_pack.pack.pack:1 of
+msgid "Pack a :class:`DataPack` using `df`."
+msgstr ""
+
+#: matchzoo.data_pack.pack.pack:3 of
+msgid ""
+"The `df` must have `text_left` and `text_right` columns. Optionally, the "
+"`df` can have `id_left`, `id_right` to index `text_left` and `text_right`"
+" respectively. `id_left`, `id_right` will be automatically generated if "
+"not specified."
+msgstr ""
+
+#: matchzoo.data_pack.pack.pack:9 of
+msgid "Input :class:`pandas.DataFrame` to use."
+msgstr ""
+
+#: ../../source/matchzoo.data_pack.rst:41
+msgid "Module contents"
+msgstr ""
+

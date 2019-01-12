@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:33+0800\n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,34 +26,59 @@ msgid "Submodules"
 msgstr ""
 
 #: ../../source/matchzoo.utils.rst:8
-msgid "matchzoo.utils.util module"
+msgid "matchzoo.utils.one\\_hot module"
 msgstr ""
 
-#: matchzoo.utils.util:1 of
-msgid "Utility functions."
+#: matchzoo.utils.one_hot:1 of
+msgid "One hot vectors."
 msgstr ""
 
-#: matchzoo.utils.util.dotdict:1 of
-msgid "基类：:class:`dict`"
+#: matchzoo.utils.one_hot.one_hot of
+msgid "返回类型"
 msgstr ""
 
-#: matchzoo.utils.util.dotdict:1 of
-msgid "make dict have the dict.attr access mode."
+#: matchzoo.utils.one_hot.one_hot:1 of
+msgid ":py:class:`~numpy.ndarray`"
+msgstr ""
+
+#: matchzoo.utils.one_hot.one_hot of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.utils.one_hot.one_hot:2 of
+msgid "A one-hot encoded vector."
 msgstr ""
 
 #: ../../source/matchzoo.utils.rst:16
-msgid "matchzoo.utils.util\\_preprocessor module"
+msgid "matchzoo.utils.tensor\\_type module"
 msgstr ""
 
-#: matchzoo.utils.util_preprocessor:1 of
-msgid "Utils for preprocessors."
-msgstr ""
-
-#: matchzoo.utils.util_preprocessor.validate_context:1 of
-msgid "Validate context in the preprocessor."
+#: matchzoo.utils.tensor_type:1 of
+msgid "Define Keras tensor type."
 msgstr ""
 
 #: ../../source/matchzoo.utils.rst:25
 msgid "Module contents"
 msgstr ""
+
+#~ msgid "matchzoo.utils.util module"
+#~ msgstr ""
+
+#~ msgid "Utility functions."
+#~ msgstr ""
+
+#~ msgid "基类：:class:`dict`"
+#~ msgstr ""
+
+#~ msgid "make dict have the dict.attr access mode."
+#~ msgstr ""
+
+#~ msgid "matchzoo.utils.util\\_preprocessor module"
+#~ msgstr ""
+
+#~ msgid "Utils for preprocessors."
+#~ msgstr ""
+
+#~ msgid "Validate context in the preprocessor."
+#~ msgstr ""
 

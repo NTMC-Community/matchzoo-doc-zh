@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.datasets.snli.rst:2
+msgid "matchzoo.datasets.snli package"
+msgstr ""
+
+#: ../../source/matchzoo.datasets.snli.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.datasets.snli.rst:8
+msgid "matchzoo.datasets.snli.load\\_data module"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data:1 of
+msgid "SNLI data loader."
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data:1 of
+msgid "Load SNLI data."
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data:3 of
+msgid "One of `train`, `dev`, and `test`. (default: `train`)"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data:4 of
+msgid ""
+"Could be one of `ranking`, `classification` or a "
+":class:`matchzoo.engine.BaseTask` instance. (default: `ranking`)"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data:6 of
+msgid ""
+"If `ranking`, chose one of `entailment`, `contradiction`, `neutral`, and "
+"`-` as the positive label. (default: `entailment`)"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.datasets.snli.load_data.load_data:10 of
+msgid ""
+"A DataPack if `ranking`, a tuple of (DataPack, classes) if "
+"`classification`."
+msgstr ""
+
+#: ../../source/matchzoo.datasets.snli.rst:17
+msgid "Module contents"
+msgstr ""
+

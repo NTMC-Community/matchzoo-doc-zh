@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:33+0800\n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,11 @@ msgstr ""
 #: matchzoo.tasks.classification.Classification:1
 #: matchzoo.tasks.ranking.Ranking:1 of
 msgid "基类：:class:`matchzoo.engine.base_task.BaseTask`"
+msgstr ""
+
+#: matchzoo.tasks.classification.Classification:4
+#: matchzoo.tasks.ranking.Ranking:4 of
+msgid "实际案例"
 msgstr ""
 
 #: matchzoo.tasks.classification.Classification.list_available_losses

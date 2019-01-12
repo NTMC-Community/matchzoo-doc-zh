@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.processor_units.rst:2
+msgid "matchzoo.processor\\_units package"
+msgstr ""
+
+#: ../../source/matchzoo.processor_units.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.processor_units.rst:8
+msgid "matchzoo.processor\\_units.chain\\_transform module"
+msgstr ""
+
+#: matchzoo.processor_units.chain_transform:1 of
+msgid "Wrapper function organizes a number of transform functions."
+msgstr ""
+
+#: matchzoo.processor_units.chain_transform.chain_transform:1 of
+msgid "Compose unit transformations into a single function."
+msgstr ""
+
+#: ../../source/matchzoo.processor_units.rst:16
+msgid "matchzoo.processor\\_units.processor\\_units module"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units:1 of
+msgid "Matchzoo toolkit for text pre-processing."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit:1
+#: matchzoo.processor_units.processor_units.FixedLengthUnit:1
+#: matchzoo.processor_units.processor_units.LemmatizationUnit:1
+#: matchzoo.processor_units.processor_units.LowercaseUnit:1
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:1
+#: matchzoo.processor_units.processor_units.NgramLetterUnit:1
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit:1
+#: matchzoo.processor_units.processor_units.StatefulProcessorUnit:1
+#: matchzoo.processor_units.processor_units.StemmingUnit:1
+#: matchzoo.processor_units.processor_units.StopRemovalUnit:1
+#: matchzoo.processor_units.processor_units.TokenizeUnit:1
+#: matchzoo.processor_units.processor_units.WordHashingUnit:1 of
+msgid "基类：:class:`matchzoo.processor_units.processor_units.ProcessorUnit`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit:1 of
+msgid "Process unit to remove digits."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform:1 of
+msgid "Remove digits from list of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform:4 of
+msgid "list of tokens to be filtered."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform of
+msgid "return tokens"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform:6 of
+msgid "tokens of tokens without digits."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit.transform
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit.transform
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform
+#: matchzoo.processor_units.processor_units.VocabularyUnit.transform
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.DigitRemovalUnit.transform:9
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform:9
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit.transform:4
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform:9
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform:9
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit.transform:4
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform:12
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform:9
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:12
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords:4
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform:10
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform:9
+#: matchzoo.processor_units.processor_units.VocabularyUnit.transform:4 of
+msgid ":py:class:`list`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit:1 of
+msgid "FixedLengthUnit Class."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit:3 of
+msgid "Process unit to get the fixed length text."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit:6
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:13
+#: matchzoo.processor_units.processor_units.NgramLetterUnit:8
+#: matchzoo.processor_units.processor_units.VocabularyUnit:4
+#: matchzoo.processor_units.processor_units.WordHashingUnit:11 of
+msgid "实际案例"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform:1 of
+msgid "Transform list of tokenized tokens into the fixed length text."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform:4
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform:4 of
+msgid "list of tokenized tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FixedLengthUnit.transform:6 of
+msgid "list of tokenized tokens in fixed length."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:1
+#: matchzoo.processor_units.processor_units.VocabularyUnit:1 of
+msgid "基类：:class:`matchzoo.processor_units.processor_units.StatefulProcessorUnit`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:1 of
+msgid "Frequency filter unit."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:3 of
+msgid "Lower bound, inclusive."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:4 of
+msgid "Upper bound, exclusive."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:5 of
+msgid ""
+"One of `tf` (term frequency), `df` (document frequency), and `idf` "
+"(inverse document frequency)."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:9 of
+msgid "Examples::"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:16 of
+msgid "To filter based on term frequency (tf):"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:23 of
+msgid "To filter based on document frequency (df):"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit:32 of
+msgid "To filter based on inverse document frequency (idf):"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit.fit:1 of
+msgid "Fit `list_of_tokens` by calculating `mode` states."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.FrequencyFilterUnit.transform:1 of
+msgid "Transform a list of tokens by filtering out unwanted words."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LemmatizationUnit:1 of
+msgid "Process unit for token lemmatization."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform:1 of
+msgid "Lemmatization a sequence of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform:4 of
+msgid "list of tokens to be lemmatized."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LemmatizationUnit.transform:6 of
+msgid "list of lemmatizd tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LowercaseUnit:1 of
+msgid "Process unit for text lower case."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform:1 of
+msgid "Convert list of tokens to lower case."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform:4 of
+msgid "list of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.LowercaseUnit.transform:6 of
+msgid "lower-cased list of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:1 of
+msgid "MatchingHistogramUnit Class."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:4 of
+msgid "The number of bins of the matching histogram."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:5 of
+msgid "The word embedding matrix applied to calculate the matching histogram."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:7 of
+msgid "Boolean, normalize the embedding or not."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit:9 of
+msgid "The type of the historgram, it should be one of 'CH', 'NG', or 'LCH'."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.MatchingHistogramUnit.transform:1
+#: of
+msgid "Transform the input text."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit:1 of
+msgid "Process unit for n-letter generation."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit:3 of
+msgid ""
+"Triletter is used in :class:`DSSMModel`. This processor is expected to "
+"execute before `Vocab` has been created."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform:1 of
+msgid "Transform token into tri-letter."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform:3 of
+msgid ""
+"For example, `word` should be represented as `#wo`, `wor`, `ord` and "
+"`rd#`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform:7 of
+msgid "list of tokens to be transformed."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform of
+msgid "return n_letters"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.NgramLetterUnit.transform:9 of
+msgid "generated n_letters."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.ProcessorUnit:1 of
+msgid "基类：:class:`object`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.ProcessorUnit:1 of
+msgid "Process unit do not persive state (i.e. do not need fit)."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.ProcessorUnit.transform:1
+#: matchzoo.processor_units.processor_units.StatefulProcessorUnit.fit:1 of
+msgid "Abstract base method, need to be implemented in subclass."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit:1 of
+msgid "Process unit for remove punctuations."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform:1 of
+msgid "Remove punctuations from list of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform:4 of
+msgid "list of toekns."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform of
+msgid "return rv"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.PuncRemovalUnit.transform:6 of
+msgid "tokens  without punctuation."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StatefulProcessorUnit:1 of
+msgid "Process unit do persive state (i.e. need fit)."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StatefulProcessorUnit.state:1 of
+msgid "Get current state."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit:1 of
+msgid "Process unit for token stemming."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:1 of
+msgid "Reducing inflected words to their word stem, base or root form."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:4 of
+msgid "list of string to be stemmed."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:5 of
+msgid "stemmer to use, `porter` or `lancaster`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform of
+msgid "引发"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:7 of
+msgid "stemmer type should be porter or lancaster."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StemmingUnit.transform:9 of
+msgid "stemmed token."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit:1 of
+msgid "Process unit to remove stop words."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit:4 of
+msgid "Example"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords:1 of
+msgid "Get stopwords based on language."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords of
+msgid "params lang"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords:3 of
+msgid "language code."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.stopwords:5 of
+msgid "list of stop words."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform:1 of
+msgid "Remove stopwords from list of tokenized tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform:5 of
+msgid "language code for stopwords."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.StopRemovalUnit.transform:7 of
+msgid "list of tokenized tokens without stopwords."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.TokenizeUnit:1 of
+msgid "Process unit for text tokenization."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform:1 of
+msgid "Process input data from raw terms to list of tokens."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform:4 of
+msgid "raw textual input."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.TokenizeUnit.transform:6 of
+msgid "tokenized tokens as a list."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit:1 of
+msgid "Vocabulary class."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit.IndexTerm:1
+#: matchzoo.processor_units.processor_units.VocabularyUnit.TermIndex:1 of
+msgid "基类：:class:`dict`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit.IndexTerm:1 of
+msgid "Map index to term."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit.TermIndex:1 of
+msgid "Map term to index."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit.fit:1 of
+msgid "Build a :class:`TermIndex` and a :class:`IndexTerm`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.VocabularyUnit.transform:1 of
+msgid "Transform a list of tokens to corresponding indices."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit:1 of
+msgid "Word-hashing layer for DSSM-based models."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit:3 of
+msgid ""
+"The input of :class:`WordHashingUnit` should be a list of word sub-letter"
+" list extracted from one document. The output of is the word-hashing "
+"representation of this document."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit:7 of
+msgid ""
+":class:`NgramLetterUnit` and :class:`VocabularyUnit` are two essential "
+"prerequisite of :class:`WordHashingUnit`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform:1 of
+msgid "Transform list of :attr:`letters` into word hashing layer."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform:4 of
+msgid "list of `tri_letters` generated by :class:`NgramLetterUnit`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform:6 of
+msgid ":py:class:`~numpy.ndarray`"
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.WordHashingUnit.transform:7 of
+msgid "Word hashing representation of `tri-letters`."
+msgstr ""
+
+#: matchzoo.processor_units.processor_units.list_available:1 of
+msgid "List all available units."
+msgstr ""
+
+#: ../../source/matchzoo.processor_units.rst:25
+msgid "Module contents"
+msgstr ""
+

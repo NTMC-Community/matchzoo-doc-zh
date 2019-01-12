@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.auto.rst:2
+msgid "matchzoo.auto package"
+msgstr ""
+
+#: ../../source/matchzoo.auto.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.auto.rst:8
+msgid "matchzoo.auto.prepare module"
+msgstr ""
+
+#: matchzoo.auto.prepare:1 matchzoo.auto.prepare.prepare:1 of
+msgid "Prepare mode, preprocessor, and data pack."
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare:3 of
+msgid ""
+"This handles interaction among data, model, and preprocessor "
+"automatically. For example, some model like `DSSM` have dynamic input "
+"shapes based on the result of word hashing. Some models have an embedding"
+" layer which dimension is related to the data's vocabulary size. "
+"`prepare` takes care of all that and returns properly prepared model, "
+"data, and preprocessor for you."
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare:12 of
+msgid "If not set, use the model's default preprocessor."
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare:13 of
+msgid "Verbosity, 0 or 1."
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare:14 of
+msgid ""
+":py:class:`~typing.Tuple`\\[:py:class:`~matchzoo.engine.base_model.BaseModel`,"
+" :py:class:`~matchzoo.data_pack.data_pack.DataPack`, "
+":py:class:`~matchzoo.engine.base_preprocessor.BasePreprocessor`]"
+msgstr ""
+
+#: matchzoo.auto.prepare.prepare of
+msgid "返回"
+msgstr ""
+
+#: ../../source/matchzoo.auto.rst:16
+msgid "matchzoo.auto.tuner module"
+msgstr ""
+
+#: matchzoo.auto.tuner:1 of
+msgid "Tuner class. Currently a minimum working demo."
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner:1 of
+msgid "基类：:class:`object`"
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner:1 of
+msgid "Tuner."
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner.params:1 of
+msgid "tuner configuration paratmeters."
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner.params of
+msgid "type"
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner.params:3 of
+msgid "return"
+msgstr ""
+
+#: matchzoo.auto.tuner.Tuner.tune:1 of
+msgid "Tune."
+msgstr ""
+
+#: ../../source/matchzoo.auto.rst:25
+msgid "Module contents"
+msgstr ""
+

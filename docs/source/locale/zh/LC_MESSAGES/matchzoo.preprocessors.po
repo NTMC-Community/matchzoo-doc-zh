@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.preprocessors.rst:2
+msgid "matchzoo.preprocessors package"
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:8
+msgid "matchzoo.preprocessors.basic\\_preprocessor module"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor:1 of
+msgid "Basic Preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:1
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor:1
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor:1
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor:1 of
+msgid "基类：:class:`matchzoo.engine.base_preprocessor.BasePreprocessor`"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:1 of
+msgid "Baisc preprocessor helper."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:4 of
+msgid "Integer, maximize length of :attr:`left` in the data_pack."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:7 of
+msgid "Integer, maximize length of :attr:`right` in the data_pack."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:10 of
+msgid ""
+"String, mode used by :class:`FrequenceFilterUnit`, Can be 'df', 'cf', and"
+" 'idf'."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:13 of
+msgid "Float, lower bound value used by :class:`FrequenceFilterUnit`."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:16 of
+msgid "Float, upper bound value used by :class:`FrequenceFilterUnit`."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:19 of
+msgid "Bool, use :class:`StopRemovalUnit` unit or not."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor:22
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor:4 of
+msgid "Example"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit:1
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit:1
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit:1
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit:1 of
+msgid "Fit pre-processing context for transformation."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit:4
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit:5
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit:4 of
+msgid "data_pack to be preprocessed."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit:5
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform:5
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit:3
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform:5
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit:3
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform:5
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit:5
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform:5 of
+msgid "Verbosity."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.fit:6 of
+msgid "class:`BasicPreprocessor` instance."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform:1 of
+msgid "Apply transformation on data, create fixed length representation."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform:4
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform:4
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform:4
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform:4 of
+msgid "Inputs to be preprocessed."
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform:7
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform:7
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform:7
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform:7 of
+msgid ":py:class:`~matchzoo.data_pack.data_pack.DataPack`"
+msgstr ""
+
+#: matchzoo.preprocessors.basic_preprocessor.BasicPreprocessor.transform:8
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform:8
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform:8
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform:8 of
+msgid "Transformed data as :class:`DataPack` object."
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:16
+msgid "matchzoo.preprocessors.cdssm\\_preprocessor module"
+msgstr ""
+
+#: matchzoo.preprocessors.cdssm_preprocessor:1 of
+msgid "CDSSM Preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor:1 of
+msgid "CDSSM Model preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit:5 of
+msgid "Data_pack to be preprocessed."
+msgstr ""
+
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.fit:6 of
+msgid "class:`CDSSMPreprocessor` instance."
+msgstr ""
+
+#: matchzoo.preprocessors.cdssm_preprocessor.CDSSMPreprocessor.transform:1 of
+msgid "Apply transformation on data, create `letter-ngram` representation."
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:24
+msgid "matchzoo.preprocessors.dssm\\_preprocessor module"
+msgstr ""
+
+#: matchzoo.preprocessors.dssm_preprocessor:1 of
+msgid "DSSM Preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor:1 of
+msgid "DSSM Model preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.fit:6 of
+msgid "class:`DSSMPreprocessor` instance."
+msgstr ""
+
+#: matchzoo.preprocessors.dssm_preprocessor.DSSMPreprocessor.transform:1
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.transform:1 of
+msgid "Apply transformation on data, create `tri-letter` representation."
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:32
+msgid "matchzoo.preprocessors.naive\\_preprocessor module"
+msgstr ""
+
+#: matchzoo.preprocessors.naive_preprocessor:1 of
+msgid "Naive Preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor:1 of
+msgid "Naive preprocessor."
+msgstr ""
+
+#: matchzoo.preprocessors.naive_preprocessor.NaivePreprocessor.fit:6 of
+msgid "class:`NaivePreprocessor` instance."
+msgstr ""
+
+#: ../../source/matchzoo.preprocessors.rst:41
+msgid "Module contents"
+msgstr ""
+

@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.metrics.rst:2
+msgid "matchzoo.metrics package"
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:8
+msgid "matchzoo.metrics.average\\_precision module"
+msgstr ""
+
+#: matchzoo.metrics.average_precision:1 of
+msgid "Average precision metric for ranking."
+msgstr ""
+
+#: matchzoo.metrics.average_precision.AveragePrecision:1
+#: matchzoo.metrics.discounted_cumulative_gain.DiscountedCumulativeGain:1
+#: matchzoo.metrics.mean_average_precision.MeanAveragePrecision:1
+#: matchzoo.metrics.mean_reciprocal_rank.MeanReciprocalRank:1
+#: matchzoo.metrics.normalized_discounted_cumulative_gain.NormalizedDiscountedCumulativeGain:1
+#: matchzoo.metrics.precision.Precision:1 of
+msgid "基类：:class:`matchzoo.engine.base_metric.BaseMetric`"
+msgstr ""
+
+#: matchzoo.metrics.average_precision.AveragePrecision:1 of
+msgid "Average precision metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:16
+msgid "matchzoo.metrics.discounted\\_cumulative\\_gain module"
+msgstr ""
+
+#: matchzoo.metrics.discounted_cumulative_gain:1 of
+msgid "Discounted cumulative gain metric for ranking."
+msgstr ""
+
+#: matchzoo.metrics.discounted_cumulative_gain.DiscountedCumulativeGain:1 of
+msgid "Disconunted cumulative gain metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:24
+msgid "matchzoo.metrics.mean\\_average\\_precision module"
+msgstr ""
+
+#: matchzoo.metrics.mean_average_precision:1 of
+msgid "Mean average precision metric for ranking."
+msgstr ""
+
+#: matchzoo.metrics.mean_average_precision.MeanAveragePrecision:1 of
+msgid "Mean average precision metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:32
+msgid "matchzoo.metrics.mean\\_reciprocal\\_rank module"
+msgstr ""
+
+#: matchzoo.metrics.mean_reciprocal_rank:1 of
+msgid "Mean reciprocal ranking metric."
+msgstr ""
+
+#: matchzoo.metrics.mean_reciprocal_rank.MeanReciprocalRank:1 of
+msgid "Mean reciprocal rank metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:40
+msgid "matchzoo.metrics.normalized\\_discounted\\_cumulative\\_gain module"
+msgstr ""
+
+#: matchzoo.metrics.normalized_discounted_cumulative_gain:1 of
+msgid "Normalized discounted cumulative gain metric for ranking."
+msgstr ""
+
+#: matchzoo.metrics.normalized_discounted_cumulative_gain.NormalizedDiscountedCumulativeGain:1
+#: of
+msgid "Normalized discounted cumulative gain metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:48
+msgid "matchzoo.metrics.precision module"
+msgstr ""
+
+#: matchzoo.metrics.precision:1 of
+msgid "Precision for ranking."
+msgstr ""
+
+#: matchzoo.metrics.precision.Precision:1 of
+msgid "Precision metric."
+msgstr ""
+
+#: ../../source/matchzoo.metrics.rst:57
+msgid "Module contents"
+msgstr ""
+

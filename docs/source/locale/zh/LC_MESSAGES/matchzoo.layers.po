@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.layers.rst:2
+msgid "matchzoo.layers package"
+msgstr ""
+
+#: ../../source/matchzoo.layers.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.layers.rst:8
+msgid "matchzoo.layers.dynamic\\_pooling\\_layer module"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer:1 of
+msgid "An implementation of Dynamic Pooling Layer."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:1
+#: matchzoo.layers.matching_layer.MatchingLayer:1 of
+msgid "基类：:class:`keras.engine.base_layer.Layer`"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:1 of
+msgid "Layer that computes dynamic pooling of one tensor."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.build
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.call
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.compute_output_shape
+#: matchzoo.layers.matching_layer.MatchingLayer
+#: matchzoo.layers.matching_layer.MatchingLayer.build
+#: matchzoo.layers.matching_layer.MatchingLayer.call
+#: matchzoo.layers.matching_layer.MatchingLayer.compute_output_shape of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:4 of
+msgid "pooling size of dimension 1"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:6 of
+msgid "pooling size of dimension 2"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:7
+#: matchzoo.layers.matching_layer.MatchingLayer:10 of
+msgid "Standard layer keyword arguments."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer:10
+#: matchzoo.layers.matching_layer.MatchingLayer:13 of
+msgid "实际案例"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.build:1
+#: matchzoo.layers.matching_layer.MatchingLayer.build:1 of
+msgid "Build the layer."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.build:3
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.compute_output_shape:4
+#: of
+msgid ""
+"the shapes of the input tensors, for DynamicPoolingLayer we need tow "
+"input tensors."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.call:1 of
+msgid "The computation logic of DynamicPoolingLayer."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.call:4
+#: matchzoo.layers.matching_layer.MatchingLayer.call:4 of
+msgid "two input tensors."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.call
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.compute_output_shape
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.get_config
+#: matchzoo.layers.matching_layer.MatchingLayer.call
+#: matchzoo.layers.matching_layer.MatchingLayer.compute_output_shape
+#: matchzoo.layers.matching_layer.MatchingLayer.get_config of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.call:7
+#: matchzoo.layers.matching_layer.MatchingLayer.call:7 of
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.compute_output_shape:1
+#: matchzoo.layers.matching_layer.MatchingLayer.compute_output_shape:1 of
+msgid "Calculate the layer output shape."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.compute_output_shape:8
+#: matchzoo.layers.matching_layer.MatchingLayer.compute_output_shape:8 of
+msgid ":py:class:`tuple`"
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.get_config:1 of
+msgid "Get the config dict of DynamicPoolingLayer."
+msgstr ""
+
+#: matchzoo.layers.dynamic_pooling_layer.DynamicPoolingLayer.get_config:4
+#: matchzoo.layers.matching_layer.MatchingLayer.get_config:4 of
+msgid ":py:class:`dict`"
+msgstr ""
+
+#: ../../source/matchzoo.layers.rst:16
+msgid "matchzoo.layers.matching\\_layer module"
+msgstr ""
+
+#: matchzoo.layers.matching_layer:1 of
+msgid "An implementation of Matching Layer."
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer:1 of
+msgid "Layer that computes a matching matrix between samples in two tensors."
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer:4 of
+msgid ""
+"Whether to L2-normalize samples along the dot product axis before taking "
+"the dot product. If set to True, then the output of the dot product is "
+"the cosine proximity between the two samples."
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer:9 of
+msgid "the similarity function for matching"
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer.build:4
+#: matchzoo.layers.matching_layer.MatchingLayer.compute_output_shape:4 of
+msgid ""
+"the shapes of the input tensors, for MatchingLayer we need tow input "
+"tensors."
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer.call:1 of
+msgid "The computation logic of MatchingLayer."
+msgstr ""
+
+#: matchzoo.layers.matching_layer.MatchingLayer.get_config:1 of
+msgid "Get the config dict of MatchingLayer."
+msgstr ""
+
+#: ../../source/matchzoo.layers.rst:25
+msgid "Module contents"
+msgstr ""
+

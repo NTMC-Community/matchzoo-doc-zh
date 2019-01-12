@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/matchzoo.data_generator.rst:2
+msgid "matchzoo.data\\_generator package"
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:8
+msgid "matchzoo.data\\_generator.data\\_generator module"
+msgstr ""
+
+#: matchzoo.data_generator.data_generator:1 of
+msgid "Base generator."
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator:1 of
+msgid "基类：:class:`keras.utils.data_utils.Sequence`"
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator:1 of
+msgid "Abstract base class of all matchzoo generators."
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator:3 of
+msgid ""
+"Every generator must implement :meth:`_get_batch_of_transformed_samples` "
+"method."
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator:7
+#: matchzoo.data_generator.dpool_data_generator.DPoolDataGenerator:4
+#: matchzoo.data_generator.dpool_data_generator.DPoolPairDataGenerator:4
+#: matchzoo.data_generator.dynamic_data_generator.DynamicDataGenerator:4
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:20
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:20
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator:4 of
+msgid "实际案例"
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator.num_instance:1 of
+msgid "Return the number of instances."
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator.num_instance
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator
+#: matchzoo.data_generator.histogram_data_generator.trunc_text
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.num_instance
+#: of
+msgid "返回类型"
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator.num_instance:3
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.num_instance:3
+#: of
+msgid ":py:class:`int`"
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator.on_epoch_end:1 of
+msgid "Reorganize the index array while epoch is ended."
+msgstr ""
+
+#: matchzoo.data_generator.data_generator.DataGenerator.reset:1 of
+msgid "Reset the generator from begin."
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:16
+msgid "matchzoo.data\\_generator.dpool\\_data\\_generator module"
+msgstr ""
+
+#: matchzoo.data_generator.dpool_data_generator:1 of
+msgid "Data generator with dynamic pooling."
+msgstr ""
+
+#: matchzoo.data_generator.dpool_data_generator.DPoolDataGenerator:1
+#: matchzoo.data_generator.dynamic_data_generator.DynamicDataGenerator:1
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:1
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator:1 of
+msgid "基类：:class:`matchzoo.data_generator.data_generator.DataGenerator`"
+msgstr ""
+
+#: matchzoo.data_generator.dpool_data_generator.DPoolDataGenerator:1 of
+msgid "Generate data with dynamic pooling."
+msgstr ""
+
+#: matchzoo.data_generator.dpool_data_generator.DPoolPairDataGenerator:1
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:1
+#: of
+msgid "基类：:class:`matchzoo.data_generator.pair_data_generator.PairDataGenerator`"
+msgstr ""
+
+#: matchzoo.data_generator.dpool_data_generator.DPoolPairDataGenerator:1 of
+msgid "Generate pair-wise data with dynamic pooling."
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:24
+msgid "matchzoo.data\\_generator.dynamic\\_data\\_generator module"
+msgstr ""
+
+#: matchzoo.data_generator.dynamic_data_generator:1 of
+msgid "Dynamic data generator with transform function inside."
+msgstr ""
+
+#: matchzoo.data_generator.dynamic_data_generator.DynamicDataGenerator:1 of
+msgid "Data generator with preprocess unit inside."
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:32
+msgid "matchzoo.data\\_generator.histogram\\_data\\_generator module"
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator:1 of
+msgid "Data generator with matching histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:1 of
+msgid "Generate data with matching histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator
+#: matchzoo.data_generator.histogram_data_generator.trunc_text
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack
+#: of
+msgid "参数"
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:4
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:4
+#: of
+msgid "The input data pack."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:6
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:6
+#: of
+msgid "The embedding matrix used to generator match histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:9
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:9
+#: of
+msgid "The number of bin size of the histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:11
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:11
+#: of
+msgid ""
+"The mode of the :class:`MatchingHistogramUnit`, one of `CH`, `NH`, and "
+"`LCH`."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:14
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:14
+#: of
+msgid "The batch size."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramDataGenerator:16
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:16
+#: of
+msgid "Boolean, whether to shuffle the data while generating a batch."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.HistogramPairDataGenerator:1
+#: of
+msgid "Generate pair-wise data with matching histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator:1
+#: of
+msgid "Generate the matching hisogram for input."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator:4
+#: of
+msgid "The input `dict`."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator:6
+#: of
+msgid "The histogram unit :class:`MatchingHistogramUnit`."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator:7
+#: of
+msgid ":py:class:`~numpy.ndarray`"
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator
+#: matchzoo.data_generator.histogram_data_generator.trunc_text
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack
+#: of
+msgid "返回"
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.match_histogram_generator:8
+#: of
+msgid "The matching histogram."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.trunc_text:1 of
+msgid "Truncating the input text according to the input length."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.trunc_text:4 of
+msgid "The input text need to be truncated."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.trunc_text:6 of
+msgid "The length used to truncated the text."
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.trunc_text:7 of
+msgid ":py:class:`list`"
+msgstr ""
+
+#: matchzoo.data_generator.histogram_data_generator.trunc_text:8 of
+msgid "The truncated text."
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:40
+msgid "matchzoo.data\\_generator.pair\\_data\\_generator module"
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator:1 of
+msgid "Pair-wise data generator."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator:1 of
+msgid "Generate pair-wise data."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.num_instance:1
+#: of
+msgid "Get the total number of pairs."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack:1
+#: of
+msgid "Re-organize the data pack as pair-wise format."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack:4
+#: of
+msgid "the input :class:`DataPack`."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack:6
+#: of
+msgid "number of duplicates for each positive sample."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack:8
+#: of
+msgid "number of negative samples associated with each positive sample."
+msgstr ""
+
+#: matchzoo.data_generator.pair_data_generator.PairDataGenerator.reorganize_data_pack:10
+#: of
+msgid "the reorganized :class:`DataPack` object."
+msgstr ""
+
+#: ../../source/matchzoo.data_generator.rst:49
+msgid "Module contents"
+msgstr ""
+

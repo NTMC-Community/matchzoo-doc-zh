@@ -1,0 +1,1229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 00:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../source/model_reference.rst:3
+msgid "MatchZoo Model Reference"
+msgstr ""
+
+#: ../../source/model_reference.rst:6
+msgid "NaiveModel"
+msgstr ""
+
+#: ../../source/model_reference.rst:9 ../../source/model_reference.rst:33
+#: ../../source/model_reference.rst:68 ../../source/model_reference.rst:116
+#: ../../source/model_reference.rst:152 ../../source/model_reference.rst:210
+#: ../../source/model_reference.rst:256 ../../source/model_reference.rst:298
+#: ../../source/model_reference.rst:337 ../../source/model_reference.rst:386
+#: ../../source/model_reference.rst:430 ../../source/model_reference.rst:471
+#: ../../source/model_reference.rst:504 ../../source/model_reference.rst:549
+msgid "Model Documentation"
+msgstr ""
+
+#: ../../source/model_reference.rst:11
+msgid "Naive model with a simplest structure for testing purposes."
+msgstr ""
+
+#: ../../source/model_reference.rst:13
+msgid ""
+"Bare minimum functioning model. The best choice to get things rolling. "
+"The worst choice to fit and evaluate performance."
+msgstr ""
+
+#: ../../source/model_reference.rst:17 ../../source/model_reference.rst:47
+#: ../../source/model_reference.rst:87 ../../source/model_reference.rst:131
+#: ../../source/model_reference.rst:175 ../../source/model_reference.rst:227
+#: ../../source/model_reference.rst:271 ../../source/model_reference.rst:314
+#: ../../source/model_reference.rst:356 ../../source/model_reference.rst:403
+#: ../../source/model_reference.rst:445 ../../source/model_reference.rst:481
+#: ../../source/model_reference.rst:521 ../../source/model_reference.rst:565
+msgid "Model Hyper Parameters"
+msgstr ""
+
+#: ../../source/model_reference.rst:20 ../../source/model_reference.rst:50
+#: ../../source/model_reference.rst:90 ../../source/model_reference.rst:134
+#: ../../source/model_reference.rst:178 ../../source/model_reference.rst:230
+#: ../../source/model_reference.rst:274 ../../source/model_reference.rst:317
+#: ../../source/model_reference.rst:359 ../../source/model_reference.rst:406
+#: ../../source/model_reference.rst:448 ../../source/model_reference.rst:484
+#: ../../source/model_reference.rst:524 ../../source/model_reference.rst:568
+msgid "Name"
+msgstr ""
+
+#: ../../source/model_reference.rst:20 ../../source/model_reference.rst:50
+#: ../../source/model_reference.rst:90 ../../source/model_reference.rst:134
+#: ../../source/model_reference.rst:178 ../../source/model_reference.rst:230
+#: ../../source/model_reference.rst:274 ../../source/model_reference.rst:317
+#: ../../source/model_reference.rst:359 ../../source/model_reference.rst:406
+#: ../../source/model_reference.rst:448 ../../source/model_reference.rst:484
+#: ../../source/model_reference.rst:524 ../../source/model_reference.rst:568
+msgid "Description"
+msgstr ""
+
+#: ../../source/model_reference.rst:20 ../../source/model_reference.rst:50
+#: ../../source/model_reference.rst:90 ../../source/model_reference.rst:134
+#: ../../source/model_reference.rst:178 ../../source/model_reference.rst:230
+#: ../../source/model_reference.rst:274 ../../source/model_reference.rst:317
+#: ../../source/model_reference.rst:359 ../../source/model_reference.rst:406
+#: ../../source/model_reference.rst:448 ../../source/model_reference.rst:484
+#: ../../source/model_reference.rst:524 ../../source/model_reference.rst:568
+msgid "Default Value"
+msgstr ""
+
+#: ../../source/model_reference.rst:20 ../../source/model_reference.rst:50
+#: ../../source/model_reference.rst:90 ../../source/model_reference.rst:134
+#: ../../source/model_reference.rst:178 ../../source/model_reference.rst:230
+#: ../../source/model_reference.rst:274 ../../source/model_reference.rst:317
+#: ../../source/model_reference.rst:359 ../../source/model_reference.rst:406
+#: ../../source/model_reference.rst:448 ../../source/model_reference.rst:484
+#: ../../source/model_reference.rst:524 ../../source/model_reference.rst:568
+msgid "Default Hyper-Space"
+msgstr ""
+
+#: ../../source/model_reference.rst:22 ../../source/model_reference.rst:52
+#: ../../source/model_reference.rst:92 ../../source/model_reference.rst:136
+#: ../../source/model_reference.rst:180 ../../source/model_reference.rst:232
+#: ../../source/model_reference.rst:276 ../../source/model_reference.rst:319
+#: ../../source/model_reference.rst:361 ../../source/model_reference.rst:408
+#: ../../source/model_reference.rst:450 ../../source/model_reference.rst:486
+#: ../../source/model_reference.rst:526 ../../source/model_reference.rst:570
+msgid "0"
+msgstr ""
+
+#: ../../source/model_reference.rst:22 ../../source/model_reference.rst:52
+#: ../../source/model_reference.rst:92 ../../source/model_reference.rst:136
+#: ../../source/model_reference.rst:180 ../../source/model_reference.rst:232
+#: ../../source/model_reference.rst:276 ../../source/model_reference.rst:319
+#: ../../source/model_reference.rst:361 ../../source/model_reference.rst:408
+#: ../../source/model_reference.rst:450 ../../source/model_reference.rst:486
+#: ../../source/model_reference.rst:526 ../../source/model_reference.rst:570
+msgid "name"
+msgstr ""
+
+#: ../../source/model_reference.rst:22 ../../source/model_reference.rst:52
+#: ../../source/model_reference.rst:92 ../../source/model_reference.rst:136
+#: ../../source/model_reference.rst:180 ../../source/model_reference.rst:232
+#: ../../source/model_reference.rst:276 ../../source/model_reference.rst:319
+#: ../../source/model_reference.rst:361 ../../source/model_reference.rst:408
+#: ../../source/model_reference.rst:450 ../../source/model_reference.rst:486
+#: ../../source/model_reference.rst:526 ../../source/model_reference.rst:570
+msgid "Not related to the model's behavior."
+msgstr ""
+
+#: ../../source/model_reference.rst:23 ../../source/model_reference.rst:53
+#: ../../source/model_reference.rst:93 ../../source/model_reference.rst:104
+#: ../../source/model_reference.rst:137 ../../source/model_reference.rst:181
+#: ../../source/model_reference.rst:194 ../../source/model_reference.rst:233
+#: ../../source/model_reference.rst:241 ../../source/model_reference.rst:277
+#: ../../source/model_reference.rst:285 ../../source/model_reference.rst:320
+#: ../../source/model_reference.rst:362 ../../source/model_reference.rst:409
+#: ../../source/model_reference.rst:451 ../../source/model_reference.rst:487
+#: ../../source/model_reference.rst:527 ../../source/model_reference.rst:571
+msgid "1"
+msgstr ""
+
+#: ../../source/model_reference.rst:23 ../../source/model_reference.rst:53
+#: ../../source/model_reference.rst:93 ../../source/model_reference.rst:137
+#: ../../source/model_reference.rst:181 ../../source/model_reference.rst:233
+#: ../../source/model_reference.rst:277 ../../source/model_reference.rst:320
+#: ../../source/model_reference.rst:362 ../../source/model_reference.rst:409
+#: ../../source/model_reference.rst:451 ../../source/model_reference.rst:487
+#: ../../source/model_reference.rst:527 ../../source/model_reference.rst:571
+msgid "model_class"
+msgstr ""
+
+#: ../../source/model_reference.rst:23 ../../source/model_reference.rst:53
+#: ../../source/model_reference.rst:93 ../../source/model_reference.rst:137
+#: ../../source/model_reference.rst:181 ../../source/model_reference.rst:233
+#: ../../source/model_reference.rst:277 ../../source/model_reference.rst:320
+#: ../../source/model_reference.rst:362 ../../source/model_reference.rst:409
+#: ../../source/model_reference.rst:451 ../../source/model_reference.rst:487
+#: ../../source/model_reference.rst:527 ../../source/model_reference.rst:571
+msgid ""
+"Model class. Used internally for save/load. Changing this may cause "
+"unexpected behaviors."
+msgstr ""
+
+#: ../../source/model_reference.rst:23
+msgid "<class 'matchzoo.models.naive_model.NaiveModel'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:24 ../../source/model_reference.rst:54
+#: ../../source/model_reference.rst:94 ../../source/model_reference.rst:138
+#: ../../source/model_reference.rst:182 ../../source/model_reference.rst:234
+#: ../../source/model_reference.rst:278 ../../source/model_reference.rst:321
+#: ../../source/model_reference.rst:363 ../../source/model_reference.rst:410
+#: ../../source/model_reference.rst:452 ../../source/model_reference.rst:488
+#: ../../source/model_reference.rst:496 ../../source/model_reference.rst:528
+#: ../../source/model_reference.rst:572
+msgid "2"
+msgstr ""
+
+#: ../../source/model_reference.rst:24 ../../source/model_reference.rst:54
+#: ../../source/model_reference.rst:94 ../../source/model_reference.rst:138
+#: ../../source/model_reference.rst:182 ../../source/model_reference.rst:234
+#: ../../source/model_reference.rst:278 ../../source/model_reference.rst:321
+#: ../../source/model_reference.rst:363 ../../source/model_reference.rst:410
+#: ../../source/model_reference.rst:452 ../../source/model_reference.rst:488
+#: ../../source/model_reference.rst:528 ../../source/model_reference.rst:572
+msgid "input_shapes"
+msgstr ""
+
+#: ../../source/model_reference.rst:24 ../../source/model_reference.rst:54
+#: ../../source/model_reference.rst:94 ../../source/model_reference.rst:138
+#: ../../source/model_reference.rst:182 ../../source/model_reference.rst:234
+#: ../../source/model_reference.rst:278 ../../source/model_reference.rst:321
+#: ../../source/model_reference.rst:363 ../../source/model_reference.rst:410
+#: ../../source/model_reference.rst:452 ../../source/model_reference.rst:488
+#: ../../source/model_reference.rst:528 ../../source/model_reference.rst:572
+msgid "Dependent on the model and data. Should be set manually."
+msgstr ""
+
+#: ../../source/model_reference.rst:25 ../../source/model_reference.rst:55
+#: ../../source/model_reference.rst:95 ../../source/model_reference.rst:103
+#: ../../source/model_reference.rst:139 ../../source/model_reference.rst:183
+#: ../../source/model_reference.rst:235 ../../source/model_reference.rst:243
+#: ../../source/model_reference.rst:279 ../../source/model_reference.rst:322
+#: ../../source/model_reference.rst:364 ../../source/model_reference.rst:373
+#: ../../source/model_reference.rst:375 ../../source/model_reference.rst:411
+#: ../../source/model_reference.rst:453 ../../source/model_reference.rst:489
+#: ../../source/model_reference.rst:529 ../../source/model_reference.rst:573
+msgid "3"
+msgstr ""
+
+#: ../../source/model_reference.rst:25 ../../source/model_reference.rst:55
+#: ../../source/model_reference.rst:95 ../../source/model_reference.rst:139
+#: ../../source/model_reference.rst:183 ../../source/model_reference.rst:235
+#: ../../source/model_reference.rst:279 ../../source/model_reference.rst:322
+#: ../../source/model_reference.rst:364 ../../source/model_reference.rst:411
+#: ../../source/model_reference.rst:453 ../../source/model_reference.rst:489
+#: ../../source/model_reference.rst:529 ../../source/model_reference.rst:573
+msgid "task"
+msgstr ""
+
+#: ../../source/model_reference.rst:25 ../../source/model_reference.rst:55
+#: ../../source/model_reference.rst:95 ../../source/model_reference.rst:139
+#: ../../source/model_reference.rst:183 ../../source/model_reference.rst:235
+#: ../../source/model_reference.rst:279 ../../source/model_reference.rst:322
+#: ../../source/model_reference.rst:364 ../../source/model_reference.rst:411
+#: ../../source/model_reference.rst:453 ../../source/model_reference.rst:489
+#: ../../source/model_reference.rst:529 ../../source/model_reference.rst:573
+msgid "Decides model output shape, loss, and metrics."
+msgstr ""
+
+#: ../../source/model_reference.rst:26 ../../source/model_reference.rst:56
+#: ../../source/model_reference.rst:96 ../../source/model_reference.rst:140
+#: ../../source/model_reference.rst:184 ../../source/model_reference.rst:236
+#: ../../source/model_reference.rst:280 ../../source/model_reference.rst:323
+#: ../../source/model_reference.rst:365 ../../source/model_reference.rst:412
+#: ../../source/model_reference.rst:454 ../../source/model_reference.rst:490
+#: ../../source/model_reference.rst:530 ../../source/model_reference.rst:574
+msgid "4"
+msgstr ""
+
+#: ../../source/model_reference.rst:26 ../../source/model_reference.rst:56
+#: ../../source/model_reference.rst:96 ../../source/model_reference.rst:140
+#: ../../source/model_reference.rst:184 ../../source/model_reference.rst:236
+#: ../../source/model_reference.rst:280 ../../source/model_reference.rst:323
+#: ../../source/model_reference.rst:365 ../../source/model_reference.rst:412
+#: ../../source/model_reference.rst:454 ../../source/model_reference.rst:490
+#: ../../source/model_reference.rst:530 ../../source/model_reference.rst:574
+msgid "optimizer"
+msgstr ""
+
+#: ../../source/model_reference.rst:26 ../../source/model_reference.rst:56
+#: ../../source/model_reference.rst:96 ../../source/model_reference.rst:140
+#: ../../source/model_reference.rst:184 ../../source/model_reference.rst:323
+#: ../../source/model_reference.rst:365 ../../source/model_reference.rst:412
+#: ../../source/model_reference.rst:454 ../../source/model_reference.rst:490
+#: ../../source/model_reference.rst:530 ../../source/model_reference.rst:574
+msgid "choice in ['adam', 'adgrad', 'rmsprop']"
+msgstr ""
+
+#: ../../source/model_reference.rst:30
+msgid "DSSM"
+msgstr ""
+
+#: ../../source/model_reference.rst:35
+msgid "Deep structured semantic model."
+msgstr ""
+
+#: ../../source/model_reference.rst:44 ../../source/model_reference.rst:84
+#: ../../source/model_reference.rst:128 ../../source/model_reference.rst:172
+#: ../../source/model_reference.rst:224 ../../source/model_reference.rst:268
+#: ../../source/model_reference.rst:311 ../../source/model_reference.rst:353
+#: ../../source/model_reference.rst:400 ../../source/model_reference.rst:442
+#: ../../source/model_reference.rst:478 ../../source/model_reference.rst:518
+#: ../../source/model_reference.rst:562
+msgid "Examples:"
+msgstr ""
+
+#: ../../source/model_reference.rst:53
+msgid "<class 'matchzoo.models.dssm.DSSM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:56 ../../source/model_reference.rst:184
+#: ../../source/model_reference.rst:236 ../../source/model_reference.rst:280
+#: ../../source/model_reference.rst:412 ../../source/model_reference.rst:454
+#: ../../source/model_reference.rst:530
+msgid "adam"
+msgstr ""
+
+#: ../../source/model_reference.rst:57 ../../source/model_reference.rst:97
+#: ../../source/model_reference.rst:141 ../../source/model_reference.rst:185
+#: ../../source/model_reference.rst:237 ../../source/model_reference.rst:281
+#: ../../source/model_reference.rst:324 ../../source/model_reference.rst:366
+#: ../../source/model_reference.rst:413 ../../source/model_reference.rst:455
+#: ../../source/model_reference.rst:491 ../../source/model_reference.rst:531
+#: ../../source/model_reference.rst:575
+msgid "5"
+msgstr ""
+
+#: ../../source/model_reference.rst:57 ../../source/model_reference.rst:97
+#: ../../source/model_reference.rst:141 ../../source/model_reference.rst:189
+#: ../../source/model_reference.rst:417 ../../source/model_reference.rst:459
+#: ../../source/model_reference.rst:535
+msgid "with_multi_layer_perceptron"
+msgstr ""
+
+#: ../../source/model_reference.rst:57 ../../source/model_reference.rst:97
+#: ../../source/model_reference.rst:141 ../../source/model_reference.rst:189
+#: ../../source/model_reference.rst:417 ../../source/model_reference.rst:459
+#: ../../source/model_reference.rst:535
+msgid ""
+"A flag of whether a multiple layer perceptron is used. Shouldn't be "
+"changed."
+msgstr ""
+
+#: ../../source/model_reference.rst:57 ../../source/model_reference.rst:97
+#: ../../source/model_reference.rst:141 ../../source/model_reference.rst:185
+#: ../../source/model_reference.rst:189 ../../source/model_reference.rst:237
+#: ../../source/model_reference.rst:281 ../../source/model_reference.rst:324
+#: ../../source/model_reference.rst:366 ../../source/model_reference.rst:413
+#: ../../source/model_reference.rst:417 ../../source/model_reference.rst:455
+#: ../../source/model_reference.rst:459 ../../source/model_reference.rst:491
+#: ../../source/model_reference.rst:531 ../../source/model_reference.rst:535
+#: ../../source/model_reference.rst:575
+msgid "True"
+msgstr ""
+
+#: ../../source/model_reference.rst:58 ../../source/model_reference.rst:98
+#: ../../source/model_reference.rst:142 ../../source/model_reference.rst:186
+#: ../../source/model_reference.rst:238 ../../source/model_reference.rst:282
+#: ../../source/model_reference.rst:325 ../../source/model_reference.rst:367
+#: ../../source/model_reference.rst:414 ../../source/model_reference.rst:456
+#: ../../source/model_reference.rst:492 ../../source/model_reference.rst:532
+#: ../../source/model_reference.rst:576
+msgid "6"
+msgstr ""
+
+#: ../../source/model_reference.rst:58 ../../source/model_reference.rst:98
+#: ../../source/model_reference.rst:142 ../../source/model_reference.rst:190
+#: ../../source/model_reference.rst:418 ../../source/model_reference.rst:460
+#: ../../source/model_reference.rst:536
+msgid "mlp_num_units"
+msgstr ""
+
+#: ../../source/model_reference.rst:58 ../../source/model_reference.rst:98
+#: ../../source/model_reference.rst:142 ../../source/model_reference.rst:190
+#: ../../source/model_reference.rst:418 ../../source/model_reference.rst:460
+#: ../../source/model_reference.rst:536
+msgid "Number of units in first `mlp_num_layers` layers."
+msgstr ""
+
+#: ../../source/model_reference.rst:59 ../../source/model_reference.rst:99
+#: ../../source/model_reference.rst:143 ../../source/model_reference.rst:187
+#: ../../source/model_reference.rst:239 ../../source/model_reference.rst:283
+#: ../../source/model_reference.rst:326 ../../source/model_reference.rst:368
+#: ../../source/model_reference.rst:415 ../../source/model_reference.rst:457
+#: ../../source/model_reference.rst:493 ../../source/model_reference.rst:533
+#: ../../source/model_reference.rst:577
+msgid "7"
+msgstr ""
+
+#: ../../source/model_reference.rst:59 ../../source/model_reference.rst:99
+#: ../../source/model_reference.rst:143 ../../source/model_reference.rst:191
+#: ../../source/model_reference.rst:419 ../../source/model_reference.rst:461
+#: ../../source/model_reference.rst:537
+msgid "mlp_num_layers"
+msgstr ""
+
+#: ../../source/model_reference.rst:59 ../../source/model_reference.rst:99
+#: ../../source/model_reference.rst:143 ../../source/model_reference.rst:191
+#: ../../source/model_reference.rst:419 ../../source/model_reference.rst:461
+#: ../../source/model_reference.rst:537
+msgid "Number of layers of the multiple layer percetron."
+msgstr ""
+
+#: ../../source/model_reference.rst:60 ../../source/model_reference.rst:100
+#: ../../source/model_reference.rst:144 ../../source/model_reference.rst:188
+#: ../../source/model_reference.rst:240 ../../source/model_reference.rst:284
+#: ../../source/model_reference.rst:327 ../../source/model_reference.rst:369
+#: ../../source/model_reference.rst:416 ../../source/model_reference.rst:458
+#: ../../source/model_reference.rst:494 ../../source/model_reference.rst:534
+#: ../../source/model_reference.rst:578
+msgid "8"
+msgstr ""
+
+#: ../../source/model_reference.rst:60 ../../source/model_reference.rst:100
+#: ../../source/model_reference.rst:144 ../../source/model_reference.rst:192
+#: ../../source/model_reference.rst:420 ../../source/model_reference.rst:462
+#: ../../source/model_reference.rst:538
+msgid "mlp_num_fan_out"
+msgstr ""
+
+#: ../../source/model_reference.rst:60 ../../source/model_reference.rst:100
+#: ../../source/model_reference.rst:144 ../../source/model_reference.rst:192
+#: ../../source/model_reference.rst:420 ../../source/model_reference.rst:462
+#: ../../source/model_reference.rst:538
+msgid ""
+"Number of units of the layer that connects the multiple layer percetron "
+"and the output."
+msgstr ""
+
+#: ../../source/model_reference.rst:61 ../../source/model_reference.rst:101
+#: ../../source/model_reference.rst:145 ../../source/model_reference.rst:189
+#: ../../source/model_reference.rst:241 ../../source/model_reference.rst:285
+#: ../../source/model_reference.rst:328 ../../source/model_reference.rst:370
+#: ../../source/model_reference.rst:417 ../../source/model_reference.rst:459
+#: ../../source/model_reference.rst:495 ../../source/model_reference.rst:535
+#: ../../source/model_reference.rst:579
+msgid "9"
+msgstr ""
+
+#: ../../source/model_reference.rst:61 ../../source/model_reference.rst:101
+#: ../../source/model_reference.rst:145 ../../source/model_reference.rst:193
+#: ../../source/model_reference.rst:421 ../../source/model_reference.rst:463
+#: ../../source/model_reference.rst:539
+msgid "mlp_activation_func"
+msgstr ""
+
+#: ../../source/model_reference.rst:61 ../../source/model_reference.rst:101
+#: ../../source/model_reference.rst:145 ../../source/model_reference.rst:193
+#: ../../source/model_reference.rst:421 ../../source/model_reference.rst:463
+#: ../../source/model_reference.rst:539
+msgid "Activation function used in the multiple layer perceptron."
+msgstr ""
+
+#: ../../source/model_reference.rst:65
+msgid "CDSSM"
+msgstr ""
+
+#: ../../source/model_reference.rst:70
+msgid "CDSSM Model implementation."
+msgstr ""
+
+#: ../../source/model_reference.rst:72
+msgid ""
+"Learning Semantic Representations Using Convolutional Neural Networks for"
+" Web Search. (2014a) A Latent Semantic Model with Convolutional-Pooling "
+"Structure for Information Retrieval. (2014b)"
+msgstr ""
+
+#: ../../source/model_reference.rst:93
+msgid "<class 'matchzoo.models.cdssm.CDSSM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:102 ../../source/model_reference.rst:190
+#: ../../source/model_reference.rst:242 ../../source/model_reference.rst:286
+#: ../../source/model_reference.rst:329 ../../source/model_reference.rst:371
+#: ../../source/model_reference.rst:418 ../../source/model_reference.rst:423
+#: ../../source/model_reference.rst:460 ../../source/model_reference.rst:496
+#: ../../source/model_reference.rst:536 ../../source/model_reference.rst:542
+#: ../../source/model_reference.rst:580
+msgid "10"
+msgstr ""
+
+#: ../../source/model_reference.rst:102
+msgid "filters"
+msgstr ""
+
+#: ../../source/model_reference.rst:102
+msgid "Number of filters in the 1D convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:102 ../../source/model_reference.rst:242
+#: ../../source/model_reference.rst:370 ../../source/model_reference.rst:372
+#: ../../source/model_reference.rst:374 ../../source/model_reference.rst:540
+msgid "32"
+msgstr ""
+
+#: ../../source/model_reference.rst:103 ../../source/model_reference.rst:191
+#: ../../source/model_reference.rst:243 ../../source/model_reference.rst:287
+#: ../../source/model_reference.rst:328 ../../source/model_reference.rst:330
+#: ../../source/model_reference.rst:372 ../../source/model_reference.rst:419
+#: ../../source/model_reference.rst:461 ../../source/model_reference.rst:497
+#: ../../source/model_reference.rst:537 ../../source/model_reference.rst:581
+msgid "11"
+msgstr ""
+
+#: ../../source/model_reference.rst:103 ../../source/model_reference.rst:287
+msgid "kernel_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:103
+msgid "Number of kernel size in the 1D convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:104 ../../source/model_reference.rst:192
+#: ../../source/model_reference.rst:244 ../../source/model_reference.rst:288
+#: ../../source/model_reference.rst:373 ../../source/model_reference.rst:420
+#: ../../source/model_reference.rst:462 ../../source/model_reference.rst:538
+msgid "12"
+msgstr ""
+
+#: ../../source/model_reference.rst:104
+msgid "strides"
+msgstr ""
+
+#: ../../source/model_reference.rst:104
+msgid "Strides in the 1D convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:105 ../../source/model_reference.rst:193
+#: ../../source/model_reference.rst:245 ../../source/model_reference.rst:289
+#: ../../source/model_reference.rst:374 ../../source/model_reference.rst:421
+#: ../../source/model_reference.rst:463 ../../source/model_reference.rst:539
+msgid "13"
+msgstr ""
+
+#: ../../source/model_reference.rst:105 ../../source/model_reference.rst:202
+#: ../../source/model_reference.rst:248 ../../source/model_reference.rst:290
+#: ../../source/model_reference.rst:377
+msgid "padding"
+msgstr ""
+
+#: ../../source/model_reference.rst:105 ../../source/model_reference.rst:377
+msgid ""
+"The padding mode in the convolution layer. It should be one of `same`, "
+"`valid`, and `causal`."
+msgstr ""
+
+#: ../../source/model_reference.rst:105 ../../source/model_reference.rst:202
+#: ../../source/model_reference.rst:248 ../../source/model_reference.rst:290
+#: ../../source/model_reference.rst:377
+msgid "same"
+msgstr ""
+
+#: ../../source/model_reference.rst:106 ../../source/model_reference.rst:194
+#: ../../source/model_reference.rst:246 ../../source/model_reference.rst:290
+#: ../../source/model_reference.rst:375 ../../source/model_reference.rst:422
+#: ../../source/model_reference.rst:464 ../../source/model_reference.rst:540
+msgid "14"
+msgstr ""
+
+#: ../../source/model_reference.rst:106 ../../source/model_reference.rst:199
+msgid "conv_activation_func"
+msgstr ""
+
+#: ../../source/model_reference.rst:106 ../../source/model_reference.rst:378
+msgid "Activation function in the convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:106 ../../source/model_reference.rst:199
+#: ../../source/model_reference.rst:246 ../../source/model_reference.rst:288
+#: ../../source/model_reference.rst:378
+msgid "relu"
+msgstr ""
+
+#: ../../source/model_reference.rst:107 ../../source/model_reference.rst:195
+#: ../../source/model_reference.rst:247 ../../source/model_reference.rst:291
+#: ../../source/model_reference.rst:376 ../../source/model_reference.rst:423
+#: ../../source/model_reference.rst:541
+msgid "15"
+msgstr ""
+
+#: ../../source/model_reference.rst:107
+msgid "w_initializer"
+msgstr ""
+
+#: ../../source/model_reference.rst:107
+msgid "glorot_normal"
+msgstr ""
+
+#: ../../source/model_reference.rst:108 ../../source/model_reference.rst:196
+#: ../../source/model_reference.rst:248 ../../source/model_reference.rst:377
+#: ../../source/model_reference.rst:542
+msgid "16"
+msgstr ""
+
+#: ../../source/model_reference.rst:108
+msgid "b_initializer"
+msgstr ""
+
+#: ../../source/model_reference.rst:108
+msgid "zeros"
+msgstr ""
+
+#: ../../source/model_reference.rst:109 ../../source/model_reference.rst:197
+#: ../../source/model_reference.rst:249 ../../source/model_reference.rst:378
+msgid "17"
+msgstr ""
+
+#: ../../source/model_reference.rst:109 ../../source/model_reference.rst:203
+#: ../../source/model_reference.rst:249 ../../source/model_reference.rst:291
+#: ../../source/model_reference.rst:379 ../../source/model_reference.rst:495
+#: ../../source/model_reference.rst:541 ../../source/model_reference.rst:581
+msgid "dropout_rate"
+msgstr ""
+
+#: ../../source/model_reference.rst:109 ../../source/model_reference.rst:203
+#: ../../source/model_reference.rst:249 ../../source/model_reference.rst:291
+#: ../../source/model_reference.rst:379 ../../source/model_reference.rst:495
+#: ../../source/model_reference.rst:581
+msgid "The dropout rate."
+msgstr ""
+
+#: ../../source/model_reference.rst:109
+msgid "0.3"
+msgstr ""
+
+#: ../../source/model_reference.rst:113
+msgid "DenseBaselineModel"
+msgstr ""
+
+#: ../../source/model_reference.rst:118
+msgid "A simple densely connected baseline model."
+msgstr ""
+
+#: ../../source/model_reference.rst:137
+msgid "<class 'matchzoo.models.dense_baseline_model.DenseBaselineModel'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:142 ../../source/model_reference.rst:579
+msgid "256"
+msgstr ""
+
+#: ../../source/model_reference.rst:142
+msgid "quantitative uniform distribution in  [16, 512), with a step size of 1"
+msgstr ""
+
+#: ../../source/model_reference.rst:143
+msgid "quantitative uniform distribution in  [1, 5), with a step size of 1"
+msgstr ""
+
+#: ../../source/model_reference.rst:149
+msgid "ArcI"
+msgstr ""
+
+#: ../../source/model_reference.rst:154
+msgid "ArcI Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:181
+msgid "<class 'matchzoo.models.arci.ArcI'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:185 ../../source/model_reference.rst:237
+#: ../../source/model_reference.rst:281 ../../source/model_reference.rst:324
+#: ../../source/model_reference.rst:366 ../../source/model_reference.rst:413
+#: ../../source/model_reference.rst:455 ../../source/model_reference.rst:491
+#: ../../source/model_reference.rst:531 ../../source/model_reference.rst:575
+msgid "with_embedding"
+msgstr ""
+
+#: ../../source/model_reference.rst:185 ../../source/model_reference.rst:237
+#: ../../source/model_reference.rst:281 ../../source/model_reference.rst:324
+#: ../../source/model_reference.rst:366 ../../source/model_reference.rst:413
+#: ../../source/model_reference.rst:455 ../../source/model_reference.rst:491
+#: ../../source/model_reference.rst:531 ../../source/model_reference.rst:575
+msgid "A flag used help `auto` module. Shouldn't be changed."
+msgstr ""
+
+#: ../../source/model_reference.rst:186 ../../source/model_reference.rst:238
+#: ../../source/model_reference.rst:282 ../../source/model_reference.rst:325
+#: ../../source/model_reference.rst:367 ../../source/model_reference.rst:414
+#: ../../source/model_reference.rst:456 ../../source/model_reference.rst:492
+#: ../../source/model_reference.rst:532 ../../source/model_reference.rst:576
+msgid "embedding_input_dim"
+msgstr ""
+
+#: ../../source/model_reference.rst:186 ../../source/model_reference.rst:238
+#: ../../source/model_reference.rst:282 ../../source/model_reference.rst:325
+#: ../../source/model_reference.rst:367 ../../source/model_reference.rst:414
+#: ../../source/model_reference.rst:456 ../../source/model_reference.rst:492
+#: ../../source/model_reference.rst:532 ../../source/model_reference.rst:576
+msgid "Usually equals vocab size + 1. Should be set manually."
+msgstr ""
+
+#: ../../source/model_reference.rst:187 ../../source/model_reference.rst:239
+#: ../../source/model_reference.rst:283 ../../source/model_reference.rst:326
+#: ../../source/model_reference.rst:368 ../../source/model_reference.rst:415
+#: ../../source/model_reference.rst:457 ../../source/model_reference.rst:493
+#: ../../source/model_reference.rst:533 ../../source/model_reference.rst:577
+msgid "embedding_output_dim"
+msgstr ""
+
+#: ../../source/model_reference.rst:187 ../../source/model_reference.rst:239
+#: ../../source/model_reference.rst:283 ../../source/model_reference.rst:326
+#: ../../source/model_reference.rst:368 ../../source/model_reference.rst:415
+#: ../../source/model_reference.rst:457 ../../source/model_reference.rst:493
+#: ../../source/model_reference.rst:533 ../../source/model_reference.rst:577
+msgid "Should be set manually."
+msgstr ""
+
+#: ../../source/model_reference.rst:188 ../../source/model_reference.rst:240
+#: ../../source/model_reference.rst:284 ../../source/model_reference.rst:327
+#: ../../source/model_reference.rst:369 ../../source/model_reference.rst:416
+#: ../../source/model_reference.rst:458 ../../source/model_reference.rst:494
+#: ../../source/model_reference.rst:534 ../../source/model_reference.rst:578
+msgid "embedding_trainable"
+msgstr ""
+
+#: ../../source/model_reference.rst:188 ../../source/model_reference.rst:240
+#: ../../source/model_reference.rst:284 ../../source/model_reference.rst:327
+#: ../../source/model_reference.rst:369 ../../source/model_reference.rst:416
+#: ../../source/model_reference.rst:458 ../../source/model_reference.rst:494
+#: ../../source/model_reference.rst:534 ../../source/model_reference.rst:578
+msgid ""
+"`True` to enable embedding layer training, `False` to freeze embedding "
+"parameters."
+msgstr ""
+
+#: ../../source/model_reference.rst:194 ../../source/model_reference.rst:241
+#: ../../source/model_reference.rst:285
+msgid "num_blocks"
+msgstr ""
+
+#: ../../source/model_reference.rst:194 ../../source/model_reference.rst:285
+msgid "Number of convolution blocks."
+msgstr ""
+
+#: ../../source/model_reference.rst:195
+msgid "left_filters"
+msgstr ""
+
+#: ../../source/model_reference.rst:195
+msgid "The filter size of each convolution blocks for the left input."
+msgstr ""
+
+#: ../../source/model_reference.rst:195 ../../source/model_reference.rst:197
+#: ../../source/model_reference.rst:244 ../../source/model_reference.rst:286
+#: ../../source/model_reference.rst:371 ../../source/model_reference.rst:376
+msgid "[32]"
+msgstr ""
+
+#: ../../source/model_reference.rst:196
+msgid "left_kernel_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:196
+msgid "The kernel size of each convolution blocks for the left input."
+msgstr ""
+
+#: ../../source/model_reference.rst:196 ../../source/model_reference.rst:198
+msgid "[3]"
+msgstr ""
+
+#: ../../source/model_reference.rst:197
+msgid "right_filters"
+msgstr ""
+
+#: ../../source/model_reference.rst:197
+msgid "The filter size of each convolution blocks for the right input."
+msgstr ""
+
+#: ../../source/model_reference.rst:198 ../../source/model_reference.rst:379
+msgid "18"
+msgstr ""
+
+#: ../../source/model_reference.rst:198
+msgid "right_kernel_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:198
+msgid "The kernel size of each convolution blocks for the right input."
+msgstr ""
+
+#: ../../source/model_reference.rst:199
+msgid "19"
+msgstr ""
+
+#: ../../source/model_reference.rst:199
+msgid "The activation function in the convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:200
+msgid "20"
+msgstr ""
+
+#: ../../source/model_reference.rst:200
+msgid "left_pool_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:200
+msgid "The pooling size of each convolution blocks for the left input."
+msgstr ""
+
+#: ../../source/model_reference.rst:200 ../../source/model_reference.rst:201
+msgid "[2]"
+msgstr ""
+
+#: ../../source/model_reference.rst:201
+msgid "21"
+msgstr ""
+
+#: ../../source/model_reference.rst:201
+msgid "right_pool_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:201
+msgid "The pooling size of each convolution blocks for the right input."
+msgstr ""
+
+#: ../../source/model_reference.rst:202
+msgid "22"
+msgstr ""
+
+#: ../../source/model_reference.rst:202 ../../source/model_reference.rst:248
+#: ../../source/model_reference.rst:290
+msgid ""
+"The padding mode in the convolution layer. It should be oneof `same`, "
+"`valid`, and `causal`."
+msgstr ""
+
+#: ../../source/model_reference.rst:202 ../../source/model_reference.rst:248
+#: ../../source/model_reference.rst:290
+msgid "choice in ['same', 'valid', 'causal']"
+msgstr ""
+
+#: ../../source/model_reference.rst:203
+msgid "23"
+msgstr ""
+
+#: ../../source/model_reference.rst:203 ../../source/model_reference.rst:249
+#: ../../source/model_reference.rst:291 ../../source/model_reference.rst:541
+#: ../../source/model_reference.rst:581
+msgid "0.0"
+msgstr ""
+
+#: ../../source/model_reference.rst:203 ../../source/model_reference.rst:249
+#: ../../source/model_reference.rst:291
+msgid "quantitative uniform distribution in  [0.0, 0.8), with a step size of 0.01"
+msgstr ""
+
+#: ../../source/model_reference.rst:207
+msgid "ArcII"
+msgstr ""
+
+#: ../../source/model_reference.rst:212
+msgid "ArcII Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:233
+msgid "<class 'matchzoo.models.arcii.ArcII'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:236 ../../source/model_reference.rst:280
+msgid "choice in ['adam', 'rmsprop', 'adagrad']"
+msgstr ""
+
+#: ../../source/model_reference.rst:241
+msgid "Number of 2D convolution blocks."
+msgstr ""
+
+#: ../../source/model_reference.rst:242
+msgid "kernel_1d_count"
+msgstr ""
+
+#: ../../source/model_reference.rst:242
+msgid "Kernel count of 1D convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:243
+msgid "kernel_1d_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:243
+msgid "Kernel size of 1D convolution layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:244
+msgid "kernel_2d_count"
+msgstr ""
+
+#: ../../source/model_reference.rst:244
+msgid "Kernel count of 2D convolution layer ineach block"
+msgstr ""
+
+#: ../../source/model_reference.rst:245
+msgid "kernel_2d_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:245
+msgid "Kernel size of 2D convolution layer in each block."
+msgstr ""
+
+#: ../../source/model_reference.rst:245 ../../source/model_reference.rst:287
+msgid "[[3, 3]]"
+msgstr ""
+
+#: ../../source/model_reference.rst:246 ../../source/model_reference.rst:288
+msgid "activation"
+msgstr ""
+
+#: ../../source/model_reference.rst:246
+msgid "Activation function."
+msgstr ""
+
+#: ../../source/model_reference.rst:247
+msgid "pool_2d_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:247
+msgid "Size of pooling layer in each block."
+msgstr ""
+
+#: ../../source/model_reference.rst:247
+msgid "[[2, 2]]"
+msgstr ""
+
+#: ../../source/model_reference.rst:253
+msgid "MatchPyramid"
+msgstr ""
+
+#: ../../source/model_reference.rst:258
+msgid "MatchPyramid Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:277
+msgid "<class 'matchzoo.models.match_pyramid.MatchPyramid'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:286
+msgid "kernel_count"
+msgstr ""
+
+#: ../../source/model_reference.rst:286
+msgid "The kernel count of the 2D convolution of each block."
+msgstr ""
+
+#: ../../source/model_reference.rst:287
+msgid "The kernel size of the 2D convolution of each block."
+msgstr ""
+
+#: ../../source/model_reference.rst:288
+msgid "The activation function."
+msgstr ""
+
+#: ../../source/model_reference.rst:289
+msgid "dpool_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:289
+msgid "The max-pooling size of each block."
+msgstr ""
+
+#: ../../source/model_reference.rst:289
+msgid "[3, 10]"
+msgstr ""
+
+#: ../../source/model_reference.rst:295
+msgid "KNRM"
+msgstr ""
+
+#: ../../source/model_reference.rst:300
+msgid "KNRM model."
+msgstr ""
+
+#: ../../source/model_reference.rst:320
+msgid "<class 'matchzoo.models.knrm.KNRM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:328
+msgid "kernel_num"
+msgstr ""
+
+#: ../../source/model_reference.rst:328
+msgid "The number of RBF kernels."
+msgstr ""
+
+#: ../../source/model_reference.rst:328
+msgid "quantitative uniform distribution in  [5, 20), with a step size of 1"
+msgstr ""
+
+#: ../../source/model_reference.rst:329
+msgid "sigma"
+msgstr ""
+
+#: ../../source/model_reference.rst:329
+msgid "The `sigma` defines the kernel width."
+msgstr ""
+
+#: ../../source/model_reference.rst:329 ../../source/model_reference.rst:495
+msgid "0.1"
+msgstr ""
+
+#: ../../source/model_reference.rst:329
+msgid ""
+"quantitative uniform distribution in  [0.01, 0.2), with a step size of "
+"0.01"
+msgstr ""
+
+#: ../../source/model_reference.rst:330
+msgid "exact_sigma"
+msgstr ""
+
+#: ../../source/model_reference.rst:330
+msgid "The `exact_sigma` denotes the `sigma` for exact match."
+msgstr ""
+
+#: ../../source/model_reference.rst:330
+msgid "0.001"
+msgstr ""
+
+#: ../../source/model_reference.rst:334
+msgid "DUET"
+msgstr ""
+
+#: ../../source/model_reference.rst:339
+msgid "DUET Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:362
+msgid "<class 'matchzoo.models.duet.DUET'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:370
+msgid "lm_filters"
+msgstr ""
+
+#: ../../source/model_reference.rst:370
+msgid "Filter size of 1D convolution layer in the local model."
+msgstr ""
+
+#: ../../source/model_reference.rst:371
+msgid "lm_hidden_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:371
+msgid "A list of hidden size of the MLP layer in the local model."
+msgstr ""
+
+#: ../../source/model_reference.rst:372
+msgid "dm_filters"
+msgstr ""
+
+#: ../../source/model_reference.rst:372
+msgid "Filter size of 1D convolution layer in the distributed model."
+msgstr ""
+
+#: ../../source/model_reference.rst:373
+msgid "dm_kernel_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:373
+msgid "Kernel size of 1D convolution layer in the distributed model."
+msgstr ""
+
+#: ../../source/model_reference.rst:374
+msgid "dm_q_hidden_size"
+msgstr ""
+
+#: ../../source/model_reference.rst:374
+msgid "Hidden size of the MLP layer for the left text in the distributed model."
+msgstr ""
+
+#: ../../source/model_reference.rst:375
+msgid "dm_d_mpool"
+msgstr ""
+
+#: ../../source/model_reference.rst:375
+msgid "Max pooling size for the right text in the distributed model."
+msgstr ""
+
+#: ../../source/model_reference.rst:376
+msgid "dm_hidden_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:376
+msgid "A list of hidden size of the MLP layer in the distributed model."
+msgstr ""
+
+#: ../../source/model_reference.rst:378
+msgid "activation_func"
+msgstr ""
+
+#: ../../source/model_reference.rst:379
+msgid "0.5"
+msgstr ""
+
+#: ../../source/model_reference.rst:379
+msgid "quantitative uniform distribution in  [0.0, 0.8), with a step size of 0.02"
+msgstr ""
+
+#: ../../source/model_reference.rst:383
+msgid "DRMMTKS"
+msgstr ""
+
+#: ../../source/model_reference.rst:388
+msgid "DRMMTKS Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:409
+msgid "<class 'matchzoo.models.drmmtks.DRMMTKS'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:410
+msgid "[(5,), (300,)]"
+msgstr ""
+
+#: ../../source/model_reference.rst:422 ../../source/model_reference.rst:464
+msgid "mask_value"
+msgstr ""
+
+#: ../../source/model_reference.rst:422 ../../source/model_reference.rst:464
+msgid "The value to be masked from inputs."
+msgstr ""
+
+#: ../../source/model_reference.rst:422 ../../source/model_reference.rst:464
+msgid "-1"
+msgstr ""
+
+#: ../../source/model_reference.rst:423 ../../source/model_reference.rst:542
+msgid "top_k"
+msgstr ""
+
+#: ../../source/model_reference.rst:423
+msgid "Size of top-k pooling layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:423 ../../source/model_reference.rst:542
+msgid "quantitative uniform distribution in  [2, 100), with a step size of 1"
+msgstr ""
+
+#: ../../source/model_reference.rst:427
+msgid "DRMM"
+msgstr ""
+
+#: ../../source/model_reference.rst:432
+msgid "DRMM Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:451
+msgid "<class 'matchzoo.models.drmm.DRMM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:452
+msgid "[(5,), (5, 30)]"
+msgstr ""
+
+#: ../../source/model_reference.rst:468
+msgid "ANMM"
+msgstr ""
+
+#: ../../source/model_reference.rst:473
+msgid "ANMM Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:487
+msgid "<class 'matchzoo.models.anmm.ANMM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:496
+msgid "num_layers"
+msgstr ""
+
+#: ../../source/model_reference.rst:496
+msgid "Number of hidden layers in the MLP layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:497
+msgid "hidden_sizes"
+msgstr ""
+
+#: ../../source/model_reference.rst:497
+msgid "Number of hidden size for each hidden layer"
+msgstr ""
+
+#: ../../source/model_reference.rst:497
+msgid "[30, 30]"
+msgstr ""
+
+#: ../../source/model_reference.rst:501
+msgid "MVLSTM"
+msgstr ""
+
+#: ../../source/model_reference.rst:506
+msgid "MVLSTM Model."
+msgstr ""
+
+#: ../../source/model_reference.rst:527
+msgid "<class 'matchzoo.models.mvlstm.MVLSTM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:540
+msgid "lstm_units"
+msgstr ""
+
+#: ../../source/model_reference.rst:540
+msgid "Integer, the hidden size in the bi-directional LSTM layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:541
+msgid "Float, the dropout rate."
+msgstr ""
+
+#: ../../source/model_reference.rst:542
+msgid "Integer, the size of top-k pooling layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:546
+msgid "MatchLSTM"
+msgstr ""
+
+#: ../../source/model_reference.rst:551
+msgid "Match LSTM model."
+msgstr ""
+
+#: ../../source/model_reference.rst:571
+msgid "<class 'matchzoo.contrib.models.match_lstm.MatchLSTM'>"
+msgstr ""
+
+#: ../../source/model_reference.rst:579
+msgid "lstm_num_units"
+msgstr ""
+
+#: ../../source/model_reference.rst:579
+msgid "The hidden size in the LSTM layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:579
+msgid "quantitative uniform distribution in  [128, 384), with a step size of 32"
+msgstr ""
+
+#: ../../source/model_reference.rst:580
+msgid "fc_num_units"
+msgstr ""
+
+#: ../../source/model_reference.rst:580
+msgid "The hidden size in the full connection layer."
+msgstr ""
+
+#: ../../source/model_reference.rst:580
+msgid "200"
+msgstr ""
+
+#: ../../source/model_reference.rst:580
+msgid "quantitative uniform distribution in  [100, 300), with a step size of 20"
+msgstr ""
+
+#: ../../source/model_reference.rst:581
+msgid "quantitative uniform distribution in  [0.0, 0.9), with a step size of 0.01"
+msgstr ""
+
